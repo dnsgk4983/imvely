@@ -1,0 +1,479 @@
+/* review-write 리뷰작성 */
+/* ================================== */
+/* .review-write-wrap {
+  margin-bottom: 27.7778vw;
+}
+
+.review-write {
+  width: 100%;
+}
+
+.review-target-product {
+  padding-top: 6.25vw;
+  padding-bottom: 6.25vw;
+  border-bottom: 4px solid #fafafa;
+}
+
+.review-target-product article {
+  display: flex;
+}
+
+.review-target-product .img-box {
+  width: 16.6667vw;
+}
+
+.review-target-product .text-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 4.1667vw;
+}
+
+.review-target-product .text-area h2 {
+  font-size: 2.7778vw;
+  color: #414141;
+}
+
+.review-target-product .text-area h3 {
+  font-size: 3.3333vw;
+}
+
+.review-target-product .text-area p {
+  font-size: 2.7778vw;
+  color: #414141;
+}
+
+.review-grade {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 11.1111vw 0;
+  border-bottom: 4px solid #fafafa;
+}
+
+.review-grade p {
+  text-align: center;
+  font-size: 4.4444vw;
+  margin-bottom: 5.5556vw;
+}
+
+.rating-grade {
+  margin-bottom: 13.8889vw;
+}
+
+
+
+.color-grade {
+  width: 100%;
+  margin-bottom: 13.8889vw;
+  padding-right: 11.8056vw;
+  padding-left: 11.8056vw;
+}
+
+.color-grade > div {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.color-grade > div > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.color-grade > div::before {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  top: 3.4722vw;
+  left: 3.6111vw;
+  width: 90%;
+  height: 2px;
+  background-color: #f5f5f5;
+}
+
+.color-grade > div span {
+  position: absolute;
+  top: 9.7222vw;
+  white-space: nowrap;
+}
+
+.size-grade {
+  width: 100%;
+  padding-right: 11.8056vw;
+  padding-left: 11.8056vw;
+}
+
+.size-grade > div {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.size-grade > div > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.size-grade > div::before {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  top: 3.4722vw;
+  left: 3.6111vw;
+  width: 90%;
+  height: 2px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+}
+
+.size-grade > div span {
+  position: absolute;
+  top: 9.7222vw;
+  white-space: nowrap;
+}
+
+.media-regist {
+  padding-top: 8.3333vw;
+  padding-bottom: 5.5556vw;
+}
+
+.media-regist p {
+  padding-bottom: 2.7778vw;
+}
+
+.photo-regist .regist-box {
+  position: relative;
+  width: 21.6667vw;
+  height: 21.6667vw;
+  background-color: #414141;
+  border-radius: 1.1111vw;
+  margin-bottom: 8.3333vw;
+}
+
+.photo-regist .regist-box::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 4.1667vw;
+  height: 4.1667vw;
+  background: url(../images/ICON_addPlus.png) no-repeat center / 4.1667vw 4.1667vw;
+}
+
+.video-regist .regist-box {
+  position: relative;
+  width: 48.3333vw;
+  height: 26.9444vw;
+  background-color: #414141;
+  border-radius: 1.1111vw;
+  margin-bottom: 8.3333vw;
+}
+
+.video-regist .regist-box::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 4.1667vw;
+  height: 4.1667vw;
+  background: url(../images/ICON_addPlus.png) no-repeat center / 4.1667vw 4.1667vw;
+}
+
+/* photo-regist-list */
+/* .photo-regist-list ul li:after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  width: 5.5556vw;
+  height: 5.5556vw;
+  background: url(../images/btn-media-close.png) no-repeat center / 5.5556vw 5.5556vw;
+}
+
+.photo-regist-list ul li:nth-of-type(4):after {
+  content: "";
+  z-index: 20;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: none;
+  background: url(../images/ICON_addPlus.png) no-repeat center / 5.5556vw 5.5556vw;
+}
+
+.video-regist-list {
+  position: relative;
+  border-radius: 1.1111vw;
+}
+
+.video-regist-list img {
+  width: 100%;
+}
+
+.video-regist-list::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 16.6667vw;
+  height: 16.6667vw;
+  background: url(../images/ICON_video.png) no-repeat;
+  background-size: 16.6667vw 16.6667vw;
+}
+
+.video-regist-list:after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  width: 5.5556vw;
+  height: 5.5556vw;
+  background: url(../images/btn-media-close.png) no-repeat center / 5.5556vw 5.5556vw;
+}
+
+.review-recaution {
+  margin-bottom: 13.8889vw;
+}
+
+.review-recaution ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  text-indent: -1em;
+  padding-left: 1em;
+}
+
+.review-recaution ul li {
+  font-size: 2.7778vw;
+  color: #c8c8c8;
+  line-height: 1.5;
+  margin-bottom: 2.2222vw;
+}
+
+.review-registed {
+  padding-bottom: 25vw;
+} */
+
+/* review-write 리뷰작성 */
+/* ================================== */
+
+.review-write {
+  width: 100%;
+}
+
+.review-target-product {
+  padding-top: 6.25vw;
+  padding-bottom: 6.25vw;
+  border-bottom: 4px solid #fafafa;
+}
+
+.review-target-product article {
+  display: flex;
+}
+
+.review-target-product .img-box {
+  width: 16.6667vw;
+}
+
+.review-target-product .text-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 4.1667vw;
+}
+
+.review-target-product .text-area h2 {
+  font-size: 2.7778vw;
+  color: #414141;
+}
+
+.review-target-product .text-area h3 {
+  font-size: 3.3333vw;
+}
+
+.review-target-product .text-area p {
+  font-size: 2.7778vw;
+  color: #414141;
+}
+
+.color-grade {
+  width: 100%;
+}
+
+.color-grade > div {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+
+
+.size-grade {
+  width: 100%;
+}
+
+.size-grade > div {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.size-grade > div > div {
+  display: flex;
+  align-items: center;
+}
+
+.photo-regist-list > ul {
+  display: flex;
+}
+.photo-regist .regist-box {
+  z-index: 5;
+  position: relative;
+  width: 17.7778vw;
+  height: 17.7778vw;
+  border:1px solid #dedcd9;
+}
+
+.photo-regist .regist-box::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 2.2222vw;
+  height: 2.2222vw;
+  background: url(../images/ico_plus_8.svg) no-repeat center / 2.2222vw 2.2222vw;
+}
+
+/* photo-regist-list */
+.photo-regist-list ul li:after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  width: 5.5556vw;
+  height: 5.5556vw;
+  background: url(../images/btn-media-close.png) no-repeat center / 5.5556vw 5.5556vw;
+}
+
+.review-registed {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 13.3333vw;
+  padding-bottom: 8.0556vw;
+  font-size: 4.4444vw;
+  line-height: 5.5556vw;
+}
+.review-registed button.cancle{
+  border: 1px solid #262627;
+}
+
+/* 2020/12/08 황운하 리뷰작성 추가 */
+.product-review-write{
+  padding-top: 6.6667vw;
+}
+.product-review-write .vertical .product .product-wrap{
+  margin-bottom: 2.2222vw;
+}
+.product-review-write label i {
+  margin-right: 2.2222vw;
+}
+
+.review-grade article div div {
+  width: 33.3333%;
+}
+
+.detail-review-media ul {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 1.1111vw;
+}
+.photo-regist-list ul li{
+  position: relative;
+  width: 17.7778vw;
+  height: 17.7778vw;
+  margin-right: 1.1111vw;
+}
+.photo-regist-list ul li img{
+  width: 100%;
+}
+
+.photo-regist-list ul li:not(:last-child)::after{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 4.4444vw;
+  height: 4.4444vw;
+  background: url(../images/btn_delete.svg)no-repeat center / 4.4444vw 4.4444vw;
+}
+.photo-regist > ul {
+  padding-left: 1.1111vw;
+}
+.photo-regist > ul > li::marker{
+  content: "· ";
+}
+
+.review-recaution ul{
+  padding-left: 1.1111vw;
+}
+.review-recaution ul > li{
+  line-height: 4.4444vw;
+  font-size: 3.0556vw;
+  color: #8c8581;
+}
+.review-recaution ul > li:not(:last-child){
+  margin-bottom: 1.1111vw;
+}
+.review-recaution ul > li::marker {
+  content: "· ";
+}
+
+.review-consent label i {
+  margin-right: 2.2222vw;
+}
+.btn-arrow-down{
+  display: inline-block;
+  width: 3.8889vw;
+  height: 3.8889vw;
+  margin-left: 1.1111vw;
+  background: url(../images/btn_arrow_down.svg)no-repeat center / 3.8889vw 3.8889vw;
+}
+
+.review-consent-text textarea{
+  font-size: 3.8889vw;
+  color: #8c8581;
+  line-height: 5.5556vw;
+}
+
+.review-consent-rights{
+  padding: 4.4444vw;
+  margin-top: 4.4444vw;
+  background: #fcf9f7;
+}
+.review-consent-rights > p {
+  line-height:  5vw;
+  letter-spacing: -0.0556vw;
+}
+
+
+.product-review-write .star-rating-bar{
+  justify-content: center;
+}

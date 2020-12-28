@@ -1,0 +1,274 @@
+@charset 'utf-8';
+
+/* 2020/12/23 황운하 user-login */
+.login-section{
+  padding-top: 6.6667vw;
+}
+
+.login-section > h2 {
+  line-height: 5vw;
+  font-size: 4.4444vw;
+  font-weight: bold;
+  text-align: center;
+  margin: 4.4444vw 0;
+}
+.login-section > p {
+  line-height: 5vw;
+  font-size: 3.8889vw;
+  text-align: center;
+}
+
+.login-section .social-login {
+  padding: 11.1111vw 0;
+}
+.login-section .social-login > h3 {
+  font-size: 4.4444vw;
+  text-align: center;
+  font-weight: bold;
+}
+.login-section .social-login > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6.6667vw;
+}
+.login-section .social-login > ul li:not(:last-child) {
+  margin-right: 4.4444vw;
+}
+.login-section .social-login > ul li i {
+  width: 13.3333vw;
+  height: 13.3333vw;
+}
+
+/* 2020/12/23 황운하 user-register-detail */
+.user-register > h2 {
+  line-height: 5.5556vw;
+  font-size: 4.4444vw;
+  font-weight: bold;
+  margin: 4.4444vw 0 6.6667vw;
+}
+.user-register .check-area .check-wrap {
+  width: 50%;
+}
+
+.user-register .register-note ul {
+  margin-top: 5vw;
+}
+.user-register .register-note ul li{
+  line-height: 5vw;
+  font-size: 3.3333vw;
+  color: #8c8581;
+}
+.register-detail-popup {
+  padding: 6.6667vw 4.4444vw;
+}
+
+.register-detail-popup h2 {
+  line-height: 5.5556vw;
+  font-size: 4.4444vw;
+  font-weight: bold;
+  margin-bottom: 6.6667vw;
+}
+
+.register-detail-popup h3 {
+  font-size: 3.8889vw;
+  line-height: 5.5556vw;
+  font-weight: bold;
+}
+.register-detail-popup p {
+  font-size: 3.8889vw;
+  line-height: 5.5556vw;
+}
+
+.register-detail-popup .bottom-menu{
+  padding: 2.2222vw 4.4444vw;
+  height: 17.7778vw;
+}
+.pb-64{
+  padding-bottom: 17.7778vw;
+}
+
+/* 2020/12/23 황운하 user-register-write */
+.register-write .write-area label div{
+  position: relative;
+}
+.register-write {
+  padding-top: 6.6667vw;
+}
+
+.register-write .write-area h3 {
+  display: flex;
+  align-items: flex-start;
+  font-size: 3.8889vw;
+  line-height: 5.5556vw;
+  margin-bottom: 2.2222vw;
+}
+.register-write .write-area.important h3::after {
+  display: block;
+  content: "";
+  width: 1.1111vw;
+  height: 1.1111vw;
+  margin-left: 0.5556vw;
+  border-radius: 50%;
+  background-color: #df9cdf;
+}
+
+.register-write .write-area input{
+  padding: 0 3.3333vw;
+  border-radius: 0.5556vw;
+}
+.register-write .write-area input::placeholder {
+  font-size: 3.8889vw;
+  line-height: 5.5556vw;
+  letter-spacing: -0.0556vw;
+}
+.register-write .write-area.password input {
+  padding: 0 10vw 0 3.3333vw;
+}
+.register-write .write-area.password p{
+  font-size: 3.3333vw;
+  line-height: 5.5556vw;
+  letter-spacing: -0.0472vw;
+  margin-top: 2.2222vw;
+  color: #8c8581;
+}
+.register-write .write-area.email input {
+  width: 27.2222vw;
+}
+.register-write .write-area.email select {
+  padding: 0 3.3333vw;
+}
+
+.register-write .write-area.phone input {
+  width: 61.1111vw;
+}
+.register-write .write-area.phone input + button {
+  position: initial;
+}
+.register-write .write-area.phone input + div {
+  width: 26.6667vw;
+  text-align: center;
+}
+.register-write .wirte-area.phone p {
+  font-size: 3.8889vw;
+  line-height: 5.5556vw;
+  letter-spacing: -0.0556vw;
+}
+.register-write .write-area.birth select {
+  padding: 0 3.3333vw;
+  color: #8c8581;
+}
+
+.register-write .select-area .select-all input + i {
+  width: 5.5556vw;
+  height: 5.5556vw;
+}
+.register-write .select-area .select-all span{
+  line-height: 6.1111vw;
+  font-size: 3.8889vw;
+}
+.register-write .select-area .select-item {
+  padding-left: 2.2222vw;
+}
+.register-write .select-area .select-item input[type=checkbox] + i {
+  width: 4.4444vw;
+  height: 4.4444vw;
+  background-size: 4.4444vw 4.4444vw;
+}
+.register-write .select-area .select-item span {
+  line-height: 6.1111vw;
+  font-size: 3.3333vw;
+}
+
+.register-write .select-area .select-itme > div:not(:last-child) {
+  margin-bottom: 2.2222vw
+}
+.register-write .recive-agree > h3 {
+  font-size: 3.8889vw;
+  line-height: 5.5556vw;
+  margin-bottom: 6.6667vw;
+}
+.register-write .recive-agree > div > div {
+  width: 50%;
+}
+.register-write .recive-agree > .d-flex > div > label > input + i {
+  margin-right: 2.2222vw;
+}
+.register-write .recive-agree ul {
+  margin-top: 4.4444vw;
+}
+.register-write .recive-agree ul > li {
+  font-size: 3.3333vw;
+  line-height: 5vw;
+  color: #8c8581;
+}
+
+/* 2020/12/24 황운하 회원가입완료 register-success */
+.register-success{
+  padding-top: 11.1111vw;
+}
+
+.register-success .success-sentence h2 {
+  font-size: 4.4444vw;
+  line-height: 5vw;
+  font-weight: bold;
+}
+.register-success .success-sentence h3{
+  font-size: 4.4444vw;
+  line-height: 5vw;
+  font-weight: bold;
+  color: #56a0c4;
+  margin: 4.4444vw 0;
+}
+
+.register-success .success-sentence p{
+  line-height: 5vw;
+  font-size: 3.8889vw;
+}
+.register-success .success-sentence p span {
+  font-weight: bold;
+}
+
+.register-success .coupon-wrapper li {
+  display: flex;
+}
+.register-success .coupon-wrapper li:not(:last-child){
+  margin-bottom: 6.6667vw;
+}
+.register-success .coupon-wrapper li .coupon-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 4.4444vw;
+}
+.register-success .coupon-wrapper li .coupon-item h2 {
+  line-height: 5vw;
+  font-size: 3.8889vw;
+  font-weight: bold;
+}
+.register-success .coupon-wrapper li .coupon-item p {
+  font-size: 3.8889vw;
+  line-height: 5vw;
+}
+.register-success .coupon-wrapper .coupon-area{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 27.7778vw;
+  height: 12.7778vw;
+}
+.register-success .coupon-wrapper .coupon-area.gr{
+  background: url(../images/img_rank_coupon_gn.svg)no-repeat center / 27.7778vw 12.7778vw;
+}
+.register-success .coupon-wrapper .coupon-area.bl{
+  background: url(../images/img_rank_coupon_bl.svg)no-repeat center / 27.7778vw 12.7778vw;
+}
+.register-success .coupon-wrapper .coupon-area.yw {
+  background: url(../images/img_rank_coupon_yw.svg)no-repeat center / 27.7778vw 12.7778vw;
+}
+.register-success .coupon-wrapper .coupon-area p {
+  font-size: 3.8889vw;
+  line-height: 5.5556vw;
+  font-weight: bold;
+  color: #ffffff;
+}

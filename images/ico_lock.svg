@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>AAAD5A87-EF67-4382-88B2-CBA699732154</title>
+    <g id="상품리스트" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IM-MW-PD-18_0" transform="translate(-328.000000, -1954.000000)">
+            <g id="Group-15-Copy-3" transform="translate(0.000000, 1911.000000)">
+                <g id="icon/lock" transform="translate(328.000000, 43.000000)">
+                    <g id="ic">
+                        <polygon id="Path" points="0 0 16 0 16 16 0 16"></polygon>
+                    </g>
+                    <path d="M8,2 C9.65685425,2 11,3.34314575 11,5 L11,7 L11,7 L5,7 L5,5 C5,3.34314575 6.34314575,2 8,2 Z" id="Rectangle" stroke="#262627"></path>
+                    <rect id="Rectangle" stroke="#262627" stroke-linejoin="round" x="3" y="7" width="10" height="7"></rect>
+                    <rect id="Rectangle" stroke="#262627" x="7" y="9" width="2" height="3" rx="1"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

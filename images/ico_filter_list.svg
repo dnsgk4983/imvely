@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <filter id="4lal9lcbga">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.149020 0 0 0 0 0.149020 0 0 0 0 0.152941 0 0 0 1.000000 0"/>
+        </filter>
+        <filter id="x1zklxp5nb">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.149020 0 0 0 0 0.149020 0 0 0 0 0.152941 0 0 0 1.000000 0"/>
+        </filter>
+        <filter id="lmg0500luc">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.149020 0 0 0 0 0.149020 0 0 0 0 0.152941 0 0 0 1.000000 0"/>
+        </filter>
+        <filter id="fyectg17zd">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.149020 0 0 0 0 0.149020 0 0 0 0 0.152941 0 0 0 1.000000 0"/>
+        </filter>
+        <filter id="2e2ttgumne">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.149020 0 0 0 0 0.149020 0 0 0 0 0.152941 0 0 0 1.000000 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g filter="url(#4lal9lcbga)" transform="translate(-246 -167) translate(246 167)">
+                    <path d="M0 0L16 0 16 16 0 16z"/>
+                </g>
+                <g filter="url(#x1zklxp5nb)" transform="translate(-246 -167) translate(246 167)">
+                    <path d="M0 0L16 0 16 16 0 16z"/>
+                </g>
+                <g filter="url(#lmg0500luc)" transform="translate(-246 -167) translate(246 167)">
+                    <g transform="translate(2 3)">
+                        <circle cx="1" cy="1" r="1" fill="#262627"/>
+                        <rect width="9" height="1" x="3" y=".5" fill="#8C8581" rx=".5"/>
+                    </g>
+                </g>
+                <g filter="url(#fyectg17zd)" transform="translate(-246 -167) translate(246 167)">
+                    <g transform="translate(2 7)">
+                        <circle cx="1" cy="1" r="1" fill="#262627"/>
+                        <rect width="9" height="1" x="3" y=".5" fill="#8C8581" rx=".5"/>
+                    </g>
+                </g>
+                <g filter="url(#2e2ttgumne)" transform="translate(-246 -167) translate(246 167)">
+                    <g transform="translate(2 11)">
+                        <circle cx="1" cy="1" r="1" fill="#262627"/>
+                        <rect width="9" height="1" x="3" y=".5" fill="#8C8581" rx=".5"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

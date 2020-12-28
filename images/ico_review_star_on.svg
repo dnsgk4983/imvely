@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+    <defs>
+        <filter id="xucxadenea">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.149020 0 0 0 0 0.149020 0 0 0 0 0.152941 0 0 0 1.000000 0"/>
+        </filter>
+        <filter id="14kp0osyob">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.149020 0 0 0 0 0.149020 0 0 0 0 0.152941 0 0 0 1.000000 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g filter="url(#xucxadenea)" transform="translate(-58 -619) translate(16 476) translate(42 143)">
+                        <path d="M0 0L16 0 16 16 0 16z"/>
+                    </g>
+                    <g filter="url(#14kp0osyob)" transform="translate(-58 -619) translate(16 476) translate(42 143)">
+                        <path d="M0 0L14 0 14 14 0 14z"/>
+                    </g>
+                    <path fill="#262627" d="M7 10.5l-3.218 1.692c-.244.128-.546.034-.675-.21-.051-.098-.069-.209-.05-.317l.614-3.583-2.603-2.538c-.198-.193-.202-.51-.009-.707.077-.079.177-.13.286-.146l3.598-.523L6.552.908c.122-.247.422-.349.67-.227.098.05.178.129.226.227l1.61 3.26 3.597.523c.273.04.462.294.423.567-.016.109-.067.21-.146.286l-2.603 2.538.614 3.583c.047.272-.136.53-.408.577-.108.019-.22 0-.317-.05L7 10.5z" transform="translate(-58 -619) translate(16 476) translate(42 143)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

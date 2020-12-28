@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+    <defs>
+        <circle id="9gksmzqy8a" cx="40" cy="40" r="40"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g transform="translate(-140 -277) translate(94 277) translate(46)">
+                        <circle cx="40" cy="40" r="39.5" stroke="#E7E0DA"/>
+                    </g>
+                    <g fill="#BCB3AC" transform="translate(-140 -277) translate(94 277) translate(46) translate(38 23)">
+                        <rect width="4" height="24" x=".5" rx="2"/>
+                        <circle cx="2.5" cy="31.5" r="2.5"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

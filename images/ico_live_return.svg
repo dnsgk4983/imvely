@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <filter id="spge1cmzia">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"/>
+        </filter>
+        <filter id="4prkaw83ob">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.149020 0 0 0 0 0.149020 0 0 0 0 0.152941 0 0 0 1.000000 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g filter="url(#spge1cmzia)" transform="translate(-262 -592)">
+            <g>
+                <g filter="url(#4prkaw83ob)" transform="translate(260 591)">
+                    <g>
+                        <path d="M0 0L24 0 24 24 0 24z" transform="translate(2 1)"/>
+                    </g>
+                </g>
+                <g stroke="#262627" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                    <g>
+                        <path d="M2.463 7.106C3.146 3.073 6.687 0 10.953 0s7.807 3.073 8.49 7.106" transform="translate(260 591) rotate(30 4.574 17.072)"/>
+                        <path d="M5.026 6.717L1.209 6.701 1.193 2.903" transform="translate(260 591) rotate(30 4.574 17.072) rotate(-30 3.11 4.81)"/>
+                    </g>
+                    <g>
+                        <path d="M2.463 7.106C3.146 3.073 6.687 0 10.953 0s7.807 3.073 8.49 7.106" transform="translate(260 591) rotate(30 4.574 17.072) rotate(180 11 9)"/>
+                        <path d="M5.187 6.847L1.37 6.831 1.354 3.033" transform="translate(260 591) rotate(30 4.574 17.072) rotate(180 11 9) rotate(-30 3.27 4.94)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <filter id="gzswwmceka">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.547130 0 0 0 0 0.522108 0 0 0 0 0.507127 0 0 0 1.000000 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g filter="url(#gzswwmceka)" transform="translate(-1247 -3571) translate(1247 3571)">
+                <path d="M0 0L24 0 24 24 0 24z"/>
+                <path stroke="#8C8581" stroke-linecap="round" stroke-linejoin="round" d="M7 10L17 10 17 20" transform="rotate(-45 12 15)"/>
+            </g>
+        </g>
+    </g>
+</svg>

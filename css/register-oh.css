@@ -1,0 +1,76 @@
+@charset 'utf-8';
+
+
+/* 공통 시스템점검안내 common-system-inspection-guide */
+
+.common-system-inspection-guide-wrap,
+.common-system-internal-error-guide-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+.common-system-inspection-guide,
+.common-system-internal-error-guide{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.common-system-inspection-guide .logo-area,
+.common-system-internal-error-guide .logo-area{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.common-system-inspection-guide .logo-area .logo-imvely,
+.common-system-internal-error-guide .logo-area .logo-imvely{
+  width: 28.8889vw;
+  height: 3.6111vw;
+  background: url(../images/img_logo_imvely.svg) no-repeat center / 28.8889vw 3.6111vw;
+}
+.common-system-inspection-guide .logo-area .ico-setting-big,
+.common-system-internal-error-guide .logo-area .ico-setting-big{
+  width: 22.2222vw;
+  height: 22.2222vw;
+  background: url(../images/ico_setting_big.svg) no-repeat center / 22.2222vw 22.2222vw;
+}
+
+.system-guide-text p{
+  line-height: 5vw;
+}
+
+.system-inspection-area{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 17.7778vw;
+  background-color: #f0eeeb;
+  /* margin-bottom: 24.1667vw; */
+}
+
+
+/* 공통 시스템 내부오류 안내common-system-Internal-error-guide */
+
+
+.common-system-internal-error-guide{
+  justify-content: space-around;
+}
+
+.logo-area .ico-none-page{
+  width: 22.2222vw;
+  height: 22.2222vw;
+  background: url(../images/ico_non-page.svg) no-repeat center / 22.2222vw 22.2222vw;
+}
+
+.btn-system-guide{
+  width: 100%;
+}

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16">
+    <defs>
+        <filter id="4wa082krua">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.149020 0 0 0 0 0.149020 0 0 0 0 0.152941 0 0 0 1.000000 0"/>
+        </filter>
+        <filter id="j8agfu9xkb">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.149020 0 0 0 0 0.149020 0 0 0 0 0.152941 0 0 0 1.000000 0"/>
+        </filter>
+        <filter id="5w7bopt6zc">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g filter="url(#4wa082krua)" transform="translate(-319 -551) translate(16 476) translate(228 67) translate(75 8)">
+                            <path d="M0 0L16 0 16 16 0 16z"/>
+                        </g>
+                        <g filter="url(#j8agfu9xkb)" transform="translate(-319 -551) translate(16 476) translate(228 67) translate(75 8)">
+                            <path d="M0 0L16 0 16 16 0 16z"/>
+                        </g>
+                        <g stroke-linecap="round" stroke-linejoin="round" filter="url(#5w7bopt6zc)" transform="translate(-319 -551) translate(16 476) translate(228 67) translate(75 8)">
+                            <g>
+                                <path fill="#8C8581" stroke="#FFF" d="M0 11L12 11" transform="translate(2 2)"/>
+                                <g stroke="#8C8581">
+                                    <path d="M3 0L3 7" transform="translate(2 2) translate(3)"/>
+                                    <path d="M5 7L1 7 1 3" transform="translate(2 2) translate(3) rotate(-45 3 5)"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

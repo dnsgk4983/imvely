@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <path fill="#FFF" stroke="#E7E0DA" d="M24 .622l3.84 2.84 4.605-1.261L35 6.236l4.75.487.924 4.686 4.254 2.17-.831 4.703 3.182 3.56-2.474 4.086 1.682 4.47-3.783 2.915-.047 4.775-4.58 1.352-1.77 4.436-4.758-.394-3.252 3.498L24 44.893l-4.296 2.087-3.252-3.498-4.759.394-1.769-4.436-4.58-1.352-.047-4.775-3.783-2.915 1.682-4.47-2.474-4.085 3.182-3.56-.831-4.703 4.254-2.171.923-4.686 4.751-.487 2.554-4.035 4.606 1.261L24 .622z" transform="translate(-16 -3921) translate(16 3921)"/>
+                <text fill="#262627" font-family="Lato-Bold, Lato" font-size="24" font-weight="bold" letter-spacing="-.343" transform="translate(-16 -3921) translate(16 3921)">
+                    <tspan x="12" y="33">W</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

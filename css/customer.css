@@ -1,0 +1,243 @@
+@charset 'utf-8';
+
+
+/* customer-sub-main 고객센터 서브메인 */
+
+.customer-sub-main .customer-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 28.3333vw;
+  background-color: #f0eeeb;
+}
+
+.customer-info .divide{
+  width: 0.2778vw;
+  height: 11.1111vw;
+  background-color: #e7e0da;
+  margin: 0 5.5556vw;
+}
+.customer-info .ico-cs{
+  width: 11.1111vw;
+  height: 11.1111vw;
+  background: url(../images/ico_cs.svg) no-repeat center / 11.1111vw 11.1111vw;
+}
+
+.customer-info .customer-info-left{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.customer-info .customer-info-right li{
+  display: flex;
+  align-items: center;
+  font-size: 3.0556vw;
+  line-height: 5vw;
+}
+
+.customer-info .customer-info-right li span{
+  display: flex;
+  justify-content: space-between;
+  width: 11.1111vw;
+  margin-right: 2.2222vw;
+}
+.customer-info .customer-info-right li p{
+  font-weight: 700;
+}
+
+
+.customer-counseling{
+  display: flex;
+}
+
+.customer-counseling span{
+  font-size: 3.8889vw;
+  color: #524e4c;
+  margin-left: 3.3333vw;
+}
+
+.customer-counseling > div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #d8d8d8;
+}
+.customer-counseling > div:last-child{
+  border-right: none
+}
+
+.customer-counseling .personal-contact,
+.customer-counseling .kakao-cs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 15.5556vw;
+
+}
+
+.customer-counseling i{
+  width: 6.9444vw;
+  height: 6.6667vw;
+}
+.customer-counseling .ico-personal-cs{
+  background: url(../images/ico_cs_personal.png) no-repeat center / 6.9444vw 6.6667vw;
+}
+.customer-counseling .ico-kakao-cs{
+  background: url(../images/ico_cs_kakao.svg) no-repeat center / 6.9444vw 6.6667vw;
+}
+
+
+
+.customer-title-sub{
+  margin: 6.6667vw 0;
+}
+.customer-title-sub h2{
+  font-size: 4.4444vw;
+  font-weight: 700;
+}
+
+.customer-title-sub .twocols{
+  justify-content: center;
+}
+
+.customer-title-sub .btn-contact{
+  font-size: 3.8889vw;
+  color: #8c8581
+}
+
+
+
+.faq-list .faq-q{
+  height: 13.3333vw;
+  font-size: 4.4444vw;
+  border-bottom: 1px solid #f0eeeb;
+  margin: 0 4.4444vw;
+}
+.faq-list .faq-q h3{
+  display: flex;
+  align-items: center;
+}
+
+.faq-list li:last-child .faq-q,
+.accordion-list.on .faq-q{
+  border-bottom: none;
+}
+
+
+
+.faq-list .faq-a li{
+  display: flex;
+  font-size: 3.8889vw;
+  line-height: 5.5556vw;
+  background-color: #fcf9f7;
+  padding: 3.3333vw 4.4444vw;
+}
+
+.ico-qustion,
+.ico-answer{
+  font-size: 3.8889vw;
+  font-weight: bold;
+  color: #524e4c;
+  margin-right: 4.4444vw;
+}
+
+.ico-answer{
+  color: #df9cdf;
+}
+
+.menu-list.tworow > ul > li{
+  line-height: 7.2222vw;
+  height: 17.7778vw;
+}
+
+
+.menu-list.tworow > ul > li h3{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  width: 61.3889vw;
+  overflow: hidden;
+}
+
+.menu-list.tworow .menu-list-sub-text{
+  display: flex;
+  align-items: center;
+}
+.menu-list.tworow .menu-list-sub-text .divide{
+  width: 0.2778vw;
+  height: 2.2222vw;
+  background-color: #dedcd9;
+  margin: 0 2.2222vw;
+}
+
+.menu-list-sub-text{
+  font-size: 3.0556vw;
+  color:#8c8581
+}
+
+.menu-list > ul > li:last-child{
+  border-bottom: none;
+}
+
+
+/* customer-notice 공지사항 리스트 */
+.customer-notice .menu-list > ul > li > a,
+.customer-info-noticee .menu-list > ul > li > a{
+  display: flex;
+  align-items: center;
+}
+
+.customer-notice .menu-list > ul > li .num-count,
+.customer-info-noticee .menu-list > ul > li .num-count{
+  width: 9.7222vw;
+  font-size: 5.5556vw;
+  font-weight: 700;
+  color: #524e4c;
+  text-align: center;
+  padding-right: 2.7778vw;
+}
+
+
+/* customer-notice-detail 공지사항 상세 */
+.customer-notice-detail .menu-list.tworow > ul > li{
+  height: auto;
+  background: none;
+  border-bottom: 1px solid #bcb3ac;
+  padding-bottom: 4.4444vw;
+}
+
+.customer-notice-detail .menu-list.tworow > ul > li > a{
+  padding: 0;
+}
+
+.customer-notice-detail .menu-list.tworow > ul > li h3{
+  text-overflow: unset;
+  white-space: normal;
+  width: 100%;
+  overflow: visible;
+}
+
+.customer-contents-area .notice-img-area{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 77.7778vw;
+  background-color: #f0eeeb;
+}
+
+.notice-text-content{
+  line-height: 5.5556vw;
+}
+
+.notice-text-content-file{
+  display: flex;
+  align-items: center;
+}
+
+.notice-text-content-file i{
+  width: 5.5556vw;
+  height: 5.5556vw;
+  background: url(../images/ico_file_gr.svg) no-repeat center / 5.5556vw 5.5556vw;
+}

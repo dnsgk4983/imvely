@@ -1,0 +1,517 @@
+/* 1대1 문의영역 */
+/* 2020-12-17(이준재) */
+/* ===================================== */
+.qna-wrap .selectbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 31.1111vw;
+  margin: 6.6667vw 0;
+}
+
+.qna-wrap .order-item-wrap {
+  margin-bottom: 6.6667vw;
+}
+
+.qna-wrap .order-item > ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4.4444vw;
+  background-color: #fcf9f7;
+}
+
+.qna-wrap .order-item > ul > li {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3.3333vw;
+  font-size: 3.8889vw;
+}
+
+.qna-wrap .order-item > ul > li:last-child {
+  padding-bottom: 0;
+}
+
+.qna-wrap .order-item > ul > li > p {
+  color: #8c8581;
+}
+
+.qna-wrap .order-item > ul > li i {
+  display: block;
+  text-align: right;
+}
+
+.qna-wrap .order-item .btn-wrap {
+  margin-top: 6.6667vw;
+}
+
+.qna-wrap .textarea-wrap {
+  margin-bottom: 6.6667vw;
+}
+
+.qna-wrap .user-info-wrap .user-email {
+  margin-bottom: 6.6667vw;
+}
+
+.qna-wrap .user-info-wrap .user-info {
+  margin-bottom: 4.444vw;
+}
+
+.qna-wrap .qna-guide {
+  margin-bottom: 6.6667vw;
+  padding-left: 1.1111vw;
+  line-height: 1.45;
+  letter-spacing: -0.18px;
+  color: #8c8581;
+}
+.qna-wrap .qna-guide li {
+  padding-bottom: 1.1111vw;
+}
+
+.qna-wrap .qna-guide li::marker {
+  content: "· ";
+}
+
+.qna-wrap .file-attach {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 4.4444vw;
+}
+
+.qna-wrap .btn-confirm-wrap {
+  margin-top: 11.1111vw;
+}
+
+.qna-wrap .reply-area {
+  margin-top: 6.6667vw;
+  margin-bottom: 4.4444vw;
+  padding: 4.444vw;
+  font-size: 3.8889vw;
+  font-weight: bold;
+  line-height: 1.43;
+  color: #524e4c;
+  background-color: #fcf9f7;
+}
+.qna-wrap .reply-area p {
+  padding-top: 2.5vw;
+  font-weight: 400;
+  letter-spacing: -0.6px;
+}
+.qna-wrap .btn-bottom-wrap .btn-large {
+  margin-bottom: 6.6667vw;
+}
+
+/* 1대1문의 수정불가 영역(IM-MW-MP-40) */
+
+.qna-finish-wrap .inquire-area {
+  margin-top: 6.6667vw;
+  margin-bottom: 4.4444vw;
+}
+.qna-finish-wrap .inquire-area > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.qna-finish-wrap .inquire-area > p {
+  font-size: 3.8889vw;
+  line-height: 1.43;
+}
+.qna-finish-wrap .inquire-area > div p {
+  padding-bottom: 4.4444vw;
+  font-size: 4.4444vw;
+}
+.qna-finish-wrap .inquire-area > div p strong {
+  font-weight: 700;
+}
+.qna-finish-wrap .inquire-area > div span {
+  font-size: 3.8889vw;
+  color: #8c8581;
+}
+.qna-finish-wrap .order-item > ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4.4444vw 0;
+}
+
+.qna-finish-wrap .order-item > ul > li {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3.3333vw;
+  font-size: 3.8889vw;
+}
+
+.qna-finish-wrap .order-item > ul > li:last-child {
+  padding-bottom: 0;
+}
+
+.qna-finish-wrap .order-item > ul > li > p {
+  color: #8c8581;
+}
+
+.qna-finish-wrap .order-item > ul > li i {
+  display: block;
+  text-align: right;
+}
+
+.qna-finish-wrap .order-item .btn-wrap {
+  margin-top: 6.6667vw;
+}
+
+.qna-finish-wrap .qna-guide {
+  margin-bottom: 6.6667vw;
+  padding-left: 1.1111vw;
+  line-height: 1.45;
+  letter-spacing: -0.18px;
+  color: #8c8581;
+}
+.qna-finish-wrap .qna-guide li {
+  padding-bottom: 1.1111vw;
+}
+
+.qna-finish-wrap .qna-guide li::marker {
+  content: "· ";
+}
+
+.qna-finish-wrap .file-attach {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 4.4444vw;
+}
+
+.qna-finish-wrap .btn-confirm-wrap {
+  margin-top: 11.1111vw;
+}
+
+.qna-finish-wrap .reply-area {
+  margin-top: 2.2222vw;
+  margin-bottom: 4.4444vw;
+  padding: 4.444vw;
+  font-size: 3.8889vw;
+  font-weight: bold;
+  line-height: 1.43;
+  color: #524e4c;
+  background-color: #fcf9f7;
+}
+.qna-finish-wrap .reply-area p {
+  padding-top: 2.5vw;
+  font-weight: 400;
+  letter-spacing: -0.8px;
+}
+
+.qna-finish-wrap .btn-bottom-wrap .btn-large {
+  margin-bottom: 6.6667vw;
+}
+
+/* member-modify 회원정보 수정 */
+.member-modify .title-wrap {
+  width: 74%;
+  margin: 0 auto;
+  margin-top: 6.1111vw;
+  font-size: 4.4444vw;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.38;
+  letter-spacing: -0.66px;
+}
+
+.member-secession .title-wrap span {
+  display: block;
+  margin-top: 4.4444vw;
+  font-size: 3.8889vw;
+  font-weight: normal;
+  line-height: 1.29;
+  letter-spacing: -0.2px;
+}
+.member-modify .input-wrap {
+  margin-top: 6.6667vw;
+}
+.member-modify .btn-wrap {
+  margin-top: 11.1111vw;
+}
+.member-modify .verify {
+  padding-top: 2.2222vw;
+  font-size: 3.3333vw;
+  line-height: 1.5;
+  letter-spacing: -0.17px;
+  color: #8c8581;
+}
+
+.inp-line-wrap .inp-view {
+  position: absolute;
+  right: 2.2222vw;
+  width: 5.5556vw;
+  height: 5.5556vw;
+  background: url(../images/ico_view_off.svg) no-repeat;
+}
+
+.inp-line-wrap .inp-view.on {
+  background: url(../images/ico_view_on.svg) no-repeat;
+}
+
+/* .member-secession  회원탈퇴*/
+.member-secession .title-wrap {
+  width: 100%;
+}
+
+.member-secession .title-wrap span {
+  display: block;
+  margin-top: 4.4444vw;
+  font-size: 3.8889vw;
+  font-weight: normal;
+  line-height: 1.29;
+  letter-spacing: -0.2px;
+}
+
+/* member-secession-info */
+.member-secession-info .subtitle-wrap {
+  padding-top: 6.6667vw;
+  padding-bottom: 4.444vw;
+  font-size: 3.8889vw;
+  line-height: 1.43;
+  letter-spacing: -0.18px;
+}
+
+.member-secession-info .subtitle-wrap p {
+  padding-bottom: 4.4444vw;
+  font-weight: 700;
+}
+.member-secession-info .subtitle-wrap ul {
+  font-weight: 400;
+}
+.member-secession-info .info-list {
+  padding: 4.4444vw;
+  background-color: #fcf9f7;
+}
+.member-secession-info .info-list p {
+  padding-bottom: 2.2222vw;
+  font-weight: 700;
+}
+.member-secession-info .info-list ul {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.15px;
+}
+.member-secession-info .secession-reason {
+  padding: 6.6667vw 4.4444vw;
+  font-size: 3.8889vw;
+}
+
+.member-secession-info .secession-reason p {
+  padding-bottom: 4.4444vw;
+  font-weight: 700;
+}
+.member-secession-info .secession-reason ul li {
+  display: flex;
+  align-items: center;
+  padding-bottom: 16px;
+}
+.member-secession-info .secession-reason ul li:last-child {
+  padding-bottom: 0;
+}
+.member-secession-info .secession-reason ul li div {
+  flex-basis: 50%;
+}
+.member-secession-info .secession-reason ul li .other-reason {
+  flex-basis: 25%;
+}
+.member-secession-info .secession-balance {
+  padding: 6.6667vw 4.4444vw 0;
+}
+.member-secession-info .secession-balance ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 3.3333vw;
+  font-size: 3.8889vw;
+  line-height: 1.43;
+  letter-spacing: -0.2px;
+}
+
+.member-secession-info .secession-balance ul li p {
+  color: #8c8581;
+}
+.member-secession-info .secession-balance ul li span {
+  font-weight: 700;
+}
+.member-secession-info .secession-balance ul li.info {
+  display: list-item;
+  width: 94%;
+  font-size: 3.0556vw;
+  color: #8c8581;
+}
+.member-secession-info .secession-balance ul .info::marker {
+  content: "· ";
+}
+
+.member-secession-info .btn-applicaion {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 3.8889vw;
+  color: #8c8581;
+}
+
+.member-secession-info .btn-wrap {
+  margin: 11.1111vw 4.4444vw;
+}
+
+/* 리뷰 리스트 */
+
+.mypage-reivew-list .title {
+  padding: 6.6667vw 4.4444vw 2.2222vw;
+  font-size: 3.8889vw;
+  line-height: 1.43;
+  letter-spacing: -0.2px;
+}
+.mypage-reivew-list .title span {
+  font-weight: 700;
+}
+.mypage-reivew-list .reivew-benefit {
+  padding: 4.4444vw;
+  background-color: #fcf9f7;
+}
+.mypage-reivew-list .reivew-benefit .subtitle {
+  display: flex;
+  align-items: center;
+  padding-bottom: 4.4444vw;
+  font-size: 3.8889vw;
+}
+.mypage-reivew-list .reivew-benefit .subtitle p {
+  font-weight: 700;
+  padding: 0 4.4444vw 0 2.2222vw;
+}
+.mypage-reivew-list .reivew-benefit .subtitle i {
+  display: block;
+  width: 6.6667vw;
+  height: 6.6667vw;
+  vertical-align: middle;
+}
+.mypage-reivew-list .reivew-benefit:nth-of-type(1) .subtitle i {
+  background: url(../images/ico_review_video.svg) no-repeat center / 6.6666vw
+    6.6667vw;
+}
+.mypage-reivew-list .reivew-benefit:nth-of-type(2) .subtitle i {
+  background: url(../images/ico_photo.svg) no-repeat center / 6.6666vw 6.6667vw;
+}
+.mypage-reivew-list .reivew-benefit:nth-of-type(3) .subtitle i {
+  background: url(../images/ico_review_txt.svg) no-repeat center / 6.6666vw
+    6.6667vw;
+}
+
+.mypage-reivew-list .reivew-benefit > p {
+  padding-top: 4.4444vw;
+}
+.mypage-reivew-list .reivew-benefit > p.txt {
+  padding-top: 0;
+}
+.mypage-reivew-list .reivew-point-info {
+  display: flex;
+  font-size: 3.3333vw;
+  font-weight: normal;
+  line-height: 1.5;
+  letter-spacing: -0.2px;
+  color: #524e4c;
+}
+.mypage-reivew-list .reivew-point-info ul {
+  flex-basis: 50%;
+  /* padding-bottom: 4.4444vw; */
+  white-space: nowrap;
+}
+
+.mypage-reivew-list .reivew-point-info ul span {
+  padding-bottom: 2.2222vw;
+  font-weight: 700;
+}
+.mypage-reivew-list .purchase-time {
+  position: relative;
+  padding-top: 4.4444vw;
+  border-bottom: 1px solid #f0eeeb;
+}
+.mypage-reivew-list .purchase-time > i {
+  position: absolute;
+  display: block;
+  top: 50%;
+  right: 4.4444vw;
+  transform: translateY(-50%);
+  width: 6.6667vw;
+  height: 6.6667vw;
+  background: url(../images/btn_arrow_right_dk.svg) no-repeat center / 6.6667vw
+    6.6667vw;
+}
+.mypage-reivew-list .purchase-time ul li {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2.2222vw;
+}
+.mypage-reivew-list .purchase-time ul > li > span {
+  display: block;
+  flex-basis: 20vw;
+  margin-right: 4.4444vw;
+  font-size: 3.8889vw;
+  line-height: 1.43;
+  letter-spacing: -0.2px;
+  color: #8c8581;
+}
+.mypage-reivew-list .product {
+  margin-top: 6.6666vw;
+}
+
+
+/* review-sub-menu */
+/* sub-menu-nav */
+.review-sub-menu .sub-menu-nav {
+  font-size: 3.8889vw;
+  color: #8c8581;
+}
+
+.review-sub-menu .sub-menu-nav ul {
+  display: flex;
+  align-items: center;
+  height: 11.1111vw;
+}
+
+.review-sub-menu .sub-menu-nav ul li {
+  width: 50%;
+  height: 11.1111vw;
+  line-height: 11.1111vw;
+  text-align: center;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+.review-sub-menu .sub-menu-nav ul li a {
+  display: block;
+}
+
+.review-sub-menu .sub-menu-nav ul li.checked {
+  font-weight: 700;
+  color: #262627;
+  border-bottom: 2px solid #262627;
+  transition: all 0.3s ease;
+}
+
+.mypage-reivew-list .review-info .review-view {
+  border-bottom: none;
+}
+
+/* my-event 이벤트 참여내역 */
+
+.my-event .vertical .product .product-wrap {
+margin-bottom: 4.4444vw;
+padding-bottom: 4.4444vw;
+border-bottom: 1px solid #f0eeeb;
+}
+.my-event .vertical .product:last-child .product-wrap {
+  border-bottom: none;
+}
+.my-event .event-list .text-area > h2 {
+  font-size: 3.8889vw;
+  font-weight: 700;
+}
+.my-event .event-list .text-area > p > span {
+  padding-right: 2.2222vw;
+  color: #8c8581;
+}

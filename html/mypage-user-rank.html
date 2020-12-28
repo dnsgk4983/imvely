@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+  <title>임블리몰 - 회원등급 및 혜택</title>
+  <link rel="stylesheet" href="../css/main.css" />
+  <script defer src="../js/accordion.js"></script>
+</head>
+
+<body>
+  <!-- 메뉴 리스트 공통 헤더 -->
+  <header class="list-header">
+    <!-- 메뉴 리스트 타이틀 영역 -->
+    <div class="list-header-title">
+      <button type="button">
+        <i></i>
+      </button>
+      <h2 class="fz-16 fc-dk lh-19 fw-bold">회원등급 및 혜택</h2>
+    </div>
+    <!-- 메뉴 리스트 타이틀 영역 끝 -->
+  </header>
+  <!-- 메뉴 리스트 공통 헤더 -->
+
+  <section class="mypage-user-rank">
+
+    <!-- 멤버십 혜택 영역 -->
+    <article class="my-rank">
+      <h2 class="fz-16 fw-bold">멤버십 혜택</h2>
+      <div class="img-area">
+        <div class="img-box">
+          <i class="ico-rank-s-star"></i>
+        </div>
+      </div>
+      <h2 class="fz-16 fw-bold">안녕하세요. <span id="myName">블리블리</span>님!</h2>
+      <p class="fz-14">고객님의 회원등급은 <span id="myRank">S-STAR</span> 입니다.</p>
+    </article>
+    <!-- 멤버십 혜택 영역 끝 -->
+    <div class="container-16">
+      <!-- 신규회원 웰컴 혜택 영역 -->
+      <article class="welcome-coupon ">
+        <h2 class="fw-bold fz-16">신규회원 웰컴 혜택</h2>
+        <ul class="coupon-wrapper">
+          <li>
+            <div class="coupon-area gr">
+              <p>2,000원</p>
+            </div>
+            <p>1만원 이상 결제시 사용가능</p>
+          </li>
+          <li>
+            <div class="coupon-area gr">
+              <p>15%</p>
+            </div>
+            <p>3만원 이상 결제시 사용가능</p>
+          </li>
+          <li>
+            <div class="coupon-area bl">
+              <p>무료배송</p>
+            </div>
+            <p>1만원 이상 결제시 사용가능</p>
+          </li>
+        </ul>
+      </article>
+      <!-- 신규회원 웰컴 혜택 끝 -->
+
+      <!-- 구분선 -->
+      <div class="divider-section-large"></div>
+      <!-- 구분선 끝 -->
+
+      <!-- 회원을 위한 특별한 혜택 -->
+      <article class="unique-benefit ">
+        <h2 class="fw-bold fz-16">회원을 위한 특별한 혜택</h2>
+        <ul class="coupon-wrapper">
+          <li>
+            <div class="coupon-area gr">
+              <p>15%</p>
+            </div>
+            <p>최대 15% 신상할인<br />신상할인+등급별 상시할인</p>
+          </li>
+          <li>
+            <div class="coupon-area gr">
+              <p>3,000원</p>
+            </div>
+            <p>10회 연속 출석체크 시</p>
+          </li>
+          <li>
+            <div class="coupon-area gr">
+              <p>2,000원</p>
+            </div>
+            <p>임블리 APP 다운 시</p>
+          </li>
+          <li>
+            <div class="coupon-area bl">
+              <p>무료배송</p>
+            </div>
+            <p>5만원 이상 결제시</p>
+          </li>
+        </ul>
+      </article>
+      <!-- 회원을 위한 특별한 혜택 끝 -->
+
+      <!-- 구분선 -->
+      <div class="divider-section-large"></div>
+      <!-- 구분선 끝 -->
+
+      <!-- 포토 리뷰 -->
+      <article class="photo-review">
+        <h2 class="fz-16 fw-bold">포토 리뷰</h2>
+        <p class="fz-14">매주 금요일 자사몰 베스트리뷰 선정하여 쿠폰 지급</p>
+        <ul class="coupon-wrapper">
+          <li>
+            <div class="coupon-area gr">
+              <p>30,000원</p>
+            </div>
+            <p>자사몰 포토리뷰 1등</p>
+          </li>
+          <li>
+            <div class="coupon-area gr">
+              <p>10,000원</p>
+            </div>
+            <p>자사몰 포토리뷰 2등</p>
+          </li>
+          <li>
+            <div class="coupon-area gr">
+              <p>2,000원</p>
+            </div>
+            <p>자사몰 포토리뷰 3등</p>
+          </li>
+        </ul>
+      </article>
+      <!-- 포토 리뷰 끝 -->
+    </div>
+
+    <!-- 구분선 -->
+    <div class="divider-section-high container-16"></div>
+    <!-- 구분선 끝 -->
+
+    <!-- 등급별 혜택 영역 -->
+    <article class="rank-benefit">
+      <h2 class="fz-16 fw-bold">등급별 혜택</h2>
+      <!-- 등급별 navbar -->
+      <ul class="nav-rank">
+        <li class="on">S STAR</li>
+        <li class="">STAR</li>
+        <li class="">GOLD</li>
+        <li class="">SILVER</li>
+        <li class="">PINK</li>
+        <li class="">WHITE</li>
+      </ul>
+      <!-- 등급별 navbar end -->
+      <div class="my-rank-area">
+        <!-- rank s-star -->
+        <div class="rank-s-star">
+          <div class="d-flex">
+            <div class="img-area">
+              <div class="img-box">
+                <i class="ico-rank-s-star"></i>
+              </div>
+            </div>
+            <div class="text-area">
+              <h2>S STAR</h2>
+              <p>선정기준 (6개월 기준 결제금액) <b>내부기준에 따른 선별</b></p>
+            </div>
+          </div>
+          <!-- 구분선 -->
+          <div class="divider-section-large"></div>
+          <!-- 구분선 끝 -->
+          <ul class="coupon-wrapper">
+            <li>
+              <div class="coupon-area gr">
+                <p>10%</p>
+              </div>
+              <p><span class="">신상중복할인</span> 5% 상시할인 <br />+APP 구매시 1%</p>
+            </li>
+            <li>
+              <div class="coupon-area yw">
+                <p>적립 3%</p>
+              </div>
+              <p>10만원 이상 구매시</p>
+            </li>
+            <li>
+              <div class="coupon-area gr">
+                <p>생일 20%</p>
+              </div>
+              <p>3만원 이상 구매시</p>
+            </li>
+            <li>
+              <div class="coupon-area bl">
+                <p>무료배송</p>
+              </div>
+              <p>상시 무료</p>
+            </li>
+            <li>
+              <div class="coupon-area bk">
+                <p>특별 혜택</p>
+              </div>
+              <p>GIFT BOX</p>
+            </li>
+          </ul>
+        </div>
+        <!-- rank s-star -->
+
+        <!-- rank star -->
+        <div class="rank-star" style="display: none;">
+          <div class="d-flex">
+            <div class="img-area">
+              <div class="img-box">
+                <i class="ico-rank-star"></i>
+              </div>
+            </div>
+            <div class="text-area">
+              <h2>STAR</h2>
+              <p>선정기준 (6개월 기준 결제금액) <b>300만원</b> 이상</p>
+            </div>
+          </div>
+          <!-- 구분선 -->
+          <div class="divider-section-large"></div>
+          <!-- 구분선 끝 -->
+          <ul class="coupon-wrapper">
+            <li>
+              <div class="coupon-area gr">
+                <p>6%</p>
+              </div>
+              <p><span class="">신상중복할인</span> 5% 상시할인 <br />+APP 구매시 1%</p>
+            </li>
+            <li>
+              <div class="coupon-area yw">
+                <p>적립 3%</p>
+              </div>
+              <p>10만원 이상 구매시</p>
+            </li>
+            <li>
+              <div class="coupon-area gr">
+                <p>생일 20%</p>
+              </div>
+              <p>3만원 이상 구매시</p>
+            </li>
+            <li>
+              <div class="coupon-area bl">
+                <p>무료배송</p>
+              </div>
+              <p>상시 무료</p>
+            </li>
+            <li>
+              <div class="coupon-area bk">
+                <p>특별 혜택</p>
+              </div>
+              <p>GIFT BOX</p>
+            </li>
+          </ul>
+        </div>
+        <!-- rank star end -->
+
+        <!-- rank gold -->
+        <div class="rank-gold" style="display: none;">
+          <div class="d-flex">
+            <div class="img-area">
+              <div class="img-box">
+                <i class="ico-rank-gold"></i>
+              </div>
+            </div>
+            <div class="text-area">
+              <h2>GOLD</h2>
+              <p>선정기준 (6개월 기준 결제금액) <b>150만원</b> 이상</p>
+            </div>
+          </div>
+          <!-- 구분선 -->
+          <div class="divider-section-large"></div>
+          <!-- 구분선 끝 -->
+          <ul class="coupon-wrapper">
+            <li>
+              <div class="coupon-area gr">
+                <p>5%</p>
+              </div>
+              <p><span class="">신상중복할인</span> 4% 상시할인 <br />+APP 구매시 1%</p>
+            </li>
+            <li>
+              <div class="coupon-area yw">
+                <p>적립 2%</p>
+              </div>
+              <p>10만원 이상 구매시</p>
+            </li>
+            <li>
+              <div class="coupon-area gr">
+                <p>생일 15%</p>
+              </div>
+              <p>3만원 이상 구매시</p>
+            </li>
+            <li>
+              <div class="coupon-area bl">
+                <p>무료배송</p>
+              </div>
+              <p>상시 무료</p>
+            </li>
+            <li>
+              <div class="coupon-area bk">
+                <p>특별 혜택</p>
+              </div>
+              <p>GIFT BOX</p>
+            </li>
+          </ul>
+        </div>
+        <!-- rank gold end -->
+
+        <!-- rank silver -->
+        <div class="rank-silver" style="display: none;">
+          <div class="d-flex">
+            <div class="img-area">
+              <div class="img-box">
+                <i class="ico-rank-silver"></i>
+              </div>
+            </div>
+            <div class="text-area">
+              <h2>SILVER</h2>
+              <p>선정기준 (6개월 기준 결제금액) <b>90만원</b> 이상</p>
+            </div>
+          </div>
+          <!-- 구분선 -->
+          <div class="divider-section-large"></div>
+          <!-- 구분선 끝 -->
+          <ul class="coupon-wrapper">
+            <li>
+              <div class="coupon-area gr">
+                <p>4%</p>
+              </div>
+              <p><span class="">신상중복할인</span> 4% 상시할인 <br />+APP 구매시 1%</p>
+            </li>
+            <li>
+              <div class="coupon-area yw">
+                <p>적립 2%</p>
+              </div>
+              <p>10만원 이상 구매시</p>
+            </li>
+            <li>
+              <div class="coupon-area gr">
+                <p>생일 15%</p>
+              </div>
+              <p>3만원 이상 구매시</p>
+            </li>
+          </ul>
+        </div>
+        <!-- rank silver end -->
+
+        <!-- rank pink -->
+        <div class="rank-pink" style="display: none;">
+          <div class="d-flex">
+            <div class="img-area">
+              <div class="img-box">
+                <i class="ico-rank-pink"></i>
+              </div>
+            </div>
+            <div class="text-area">
+              <h2>PINK</h2>
+              <p>선정기준 (6개월 기준 결제금액) <b>30만원</b> 이상</p>
+            </div>
+          </div>
+          <!-- 구분선 -->
+          <div class="divider-section-large"></div>
+          <!-- 구분선 끝 -->
+          <ul class="coupon-wrapper">
+            <li>
+              <div class="coupon-area gr">
+                <p>3%</p>
+              </div>
+              <p><span class="">신상중복할인</span> 2% 상시할인 <br />+APP 구매시 1%</p>
+            </li>
+            <li>
+              <div class="coupon-area yw">
+                <p>적립 1%</p>
+              </div>
+              <p>10만원 이상 구매시</p>
+            </li>
+            <li>
+              <div class="coupon-area gr">
+                <p>생일 10%</p>
+              </div>
+              <p>3만원 이상 구매시</p>
+            </li>
+          </ul>
+        </div>
+        <!-- rank pink end -->
+
+        <!-- rank white -->
+        <div class="rank-white" style="display: none;">
+          <div class="d-flex">
+            <div class="img-area">
+              <div class="img-box">
+                <i class="ico-rank-white"></i>
+              </div>
+            </div>
+            <div class="text-area">
+              <h2>WHITE</h2>
+              <p>선정기준 (6개월 기준 결제금액) <b>30만원</b> 미만 신규회원</p>
+            </div>
+          </div>
+          <!-- 구분선 -->
+          <div class="divider-section-large"></div>
+          <!-- 구분선 끝 -->
+          <ul class="coupon-wrapper">
+            <li>
+              <div class="coupon-area yw">
+                <p>1%</p>
+              </div>
+              <p>기본 적립금</p>
+            </li>
+            <li>
+              <div class="coupon-area yw">
+                <p>적립 1%</p>
+              </div>
+              <p>10만원 이상 구매시</p>
+            </li>
+            <li>
+              <div class="coupon-area gr">
+                <p>2,000원</p>
+              </div>
+              <p>* 최초 1회 1만원 이상 결제 시</p>
+            </li>
+            <li>
+              <div class="coupon-area gr">
+                <p>15%</p>
+              </div>
+              <p>* 최초 1회 3만원 이상 결제 시</p>
+            </li>
+            <li>
+              <div class="coupon-area bl">
+                <p>무료배송</p>
+              </div>
+              <p>상시 무료</p>
+            </li>
+          </ul>
+        </div>
+        <!-- rank star end -->
+      </div>
+
+    </article>
+    <!-- 등급별 혜택 끝 -->
+
+    <!-- 구분선 -->
+    <div class="divider-section-high"></div>
+    <!-- 구분선 끝 -->
+
+    <!-- 회원 등급 유의사항 -->
+    <article class="user-rank-note">
+      <ul class="">
+        <li class="accordion-list on">
+          <article class="title">
+            <h3>유의사항</h3>
+            <i class=""></i>
+          </article>
+          <ul class="accordion">
+            <li>
+              <h3>[ 전체공지 ]
+                <p>- 회원 등급은 매월 1일, 최근 6개월간의 실 결제금액 기준으로 변경됩니다.</p>
+                <p>- 회원 구매 시 기본 적립 혜택은 구매금액의 1%이며, 등급별 적립 혜택은 10만원 이상 구매 시 적용됩니다. (구매금액이란, 실 결제 금액에 적립금 및 주문서 쿠폰 할인가 포함한 금액) ex. STAR등급 → 1만원 구매 시 1% 적립 / 10만원 구매 시 3% 적립</p>
+              </h3>
+            </li>
+            <br />
+            <li>
+              <h3>[ S STAR 등급 ]</h3>
+              <p>- 등급 선별은 상품 리뷰 작성, 이벤트 참여도, 쇼핑 지수 등을 고려하여 내부 규정에 따라 진행됩니다.</p>
+              <p>- 매월 초 영업일 기준 3일 이내 선별 및 업데이트가 진행되며, 앱 푸시를 통해 개별 알림을 드립니다.<br />(앱 푸시는 임블리 APP 오른족 하단 설정(톱니바퀴) → '알림함' 에서 확인 가능)</p>
+              <p>- 초청 행사의 경우 단 한 번이라도 S STAR 등급으로 선별되었던 고객님 중 행사 당월에 STAR 등급 이상인 고객님에 한해 진행됩니다.<br />(당사의 사정에 의해 변경, 연기 및 진행되지 않을 수 있으며,진행 시 대상 고객님께는 SMS, 앱 푸시를 통해 별도 안내 드릴 예정입니다.)</p>
+            </li>
+            <br />
+            <li>
+              <h3>[ GIFT BOX ]</h3>
+              <p>- GIFT BOX는 특정 기념일에 깜짝 이벤트로 진행됩니다.</p>
+              <p>- GIFT BOX는 SMS 및 이메일 수신 여부 동의 고객님에 한해 배송이 가능합니다. 수령을 원하시는 경우 마이페이지 내 개인정보 수정 부탁드립니다. ([SMS 수신 여부], [이메일 수신 여부] → '수신함' 설정)</p>
+              <p>- GIFT BOX는 당사의 사정에 의해 변경, 연기 및 진행되지 않을 수 있습니다.</p>
+            </li>
+          </ul>
+        </li>
+        <li class="accordion-list on">
+          <article class="title">
+            <h3>꼭 읽어주세요!</h3>
+            <i class=""></i>
+          </article>
+          <ul class="accordion">
+            <li>
+              <p>- 매월1일 등급 변경 시간 및 혜택 지급은 오전 10시에 적용됩니다.</p>
+            </li>
+            <li>
+              <p>- 구매 적립금은 배송 완료 7일 후 지급되며 2,000원 이상부터 사용 가능합니다.</p>
+            </li>
+            <li>
+              <p>- 할인 상품 및 일부 품목은 쿠폰 사용이 불가합니다.</p>
+            </li>
+            <li>
+              <p>- 회원 혜택은 비회원(네이버페이/지그재그 Z페이 결제 포함) 구매 시 제공되지 않습니다.</p>
+            </li>
+            <li>
+              <p>- 단순 변심에 의한 교환/반품 비율이 30% 이상일 경우 등급이 하향 조정될 수 있습니다.</p>
+            </li>
+            <li>
+              <p>- 부당한 방버으로 획득한 고객 등급은 사후 심사 후 조정될 수 있습니다.</p>
+            </li>
+            <li>
+              <p>- 등급 혜택은 당사 사정에 의해 사전 에고 없이 변경 또는 중지될 수 있습니다.</p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </article>
+    <!-- 회원 등급 유의사항 끝 -->
+  </section>
+
+
+</body>
+
+</html>

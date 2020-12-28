@@ -1,0 +1,355 @@
+@charset 'utf-8';
+
+
+/* 2020/12/09 신민하 orderpay-main-mem */
+/* =========================================== */
+
+.orderpay-24{
+  padding-top: 6.6667vw;
+  padding-bottom: 6.6667vw;
+}
+.orderpay-24 .member-info li{
+  margin-bottom: 1.1111vw;
+}
+
+.orderpay-title-sub{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 6.6667vw;
+}
+
+.orderpay-title-sub h2{
+  font-size: 4.4444vw;
+  font-weight: 700;
+}
+
+.orderpay-title-sub .btn-change{
+  font-size: 3.8889vw;
+  color: #8c8581
+}
+
+.orderpay-main .member-info-wrap{
+  font-size: 3.8889vw;
+  line-height: 5.5556vw;
+}
+
+.ship-text{
+  line-height: 4.4444vw;
+}
+
+/* order-product */
+/* =================== */
+.btn-view-all-wrap{
+  display: flex;
+  justify-content: center;
+  font-size: 3.8889vw;
+  color: #8c8581;
+}
+.btn-view-all-wrap button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-view-all i{
+  width: 3.8889vw;
+  height: 3.8889vw;
+  background: url(../images/btn_arrow_down.svg) no-repeat center / 3.8889vw 3.8889vw;
+  transition: all ease 0.5s;
+}
+.btn-view-close i{
+  width: 3.8889vw;
+  height: 3.8889vw;
+  background: url(../images/btn_arrow_up.svg) no-repeat center / 3.8889vw 3.8889vw;
+  transition: all ease 0.5s;
+}
+
+.orderpay-total-price{
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* 사은품 freebies-info*/
+/* =================== */
+.freebies-tit span{
+  margin-left: 2.2222vw;
+}
+
+.freebies-select-list .product{
+  display: flex;
+}
+
+.freebies-select-list .product label{
+  align-items: flex-start;
+}
+
+/* 할인적용 apply-discount */
+/* =================== */
+.orderpay-input-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.orderpay-input-wrap input{
+  width: 61.1111vw;
+}
+
+.orderpay-input-wrap input.normal + button{
+  position: relative;
+  right: 0;
+}
+
+.orderpay-input-wrap label{
+  width: 26.6667vw;
+  justify-content: start;
+}
+
+.apply-point-text{
+  font-size: 3.0556vw;
+  color: #8c8581;
+  line-height: 4.4444vw;
+}
+
+/* 최종결제금액 total-payment-list */
+/* =================== */
+.payment-contents{
+  padding-left: 2.2222vw;
+}
+
+.payment-contents .contents{
+  margin-top: 3.3333vw;
+}
+
+.total-payment-list .payment-detail-wrap .payment-title h2,
+.total-payment-list .payment-detail-wrap .contents h3{
+  font-size: 3.8889vw;
+  color: #8c8581;
+}
+
+.total-payment-list .payment-detail-wrap .payment-title p {
+  font-size: 5vw;
+}
+
+.total-payment-list .payment-detail-wrap .payment-title p,
+.total-payment-list .payment-detail-wrap .contents p {
+  color:#262627;
+  font-weight: 700;
+}
+
+.payment-total-price h2{
+  font-size: 3.8889vw;
+}
+
+.total-payment-list .final-price{
+  font-size: 5.5556vw;
+  font-weight: 700;
+}
+
+.total-payment-list .final-point{
+  font-size: 3.8889vw;
+  font-weight: 700;
+  color: #df9cdf;
+}
+
+/* 약관동의 orderpay-agreement-terms */
+/* =================== */
+.orderpay-agreement-terms .payment-title span{
+  font-size: 3.8889vw;
+}
+
+.btn-terms{
+  color: #8c8581;
+}
+
+.orderpay-agreement-terms .payment-contents label > input[type="checkbox"] + i{
+  width: 4.4444vw;
+  height: 4.4444vw;
+  background-size: 4.4444vw 4.4444vw;
+}
+
+.orderpay-agreement-terms .payment-contents .contents{
+  margin-top: 4.4444vw;
+}
+
+/* 결제수단 */
+/* =================== */
+
+.payment_info .select-payment,
+.cash-receipt .radio-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.payment_info .select-payment li,
+.cash-receipt .radio-list li{
+  width: 50%;
+  font-size: 3.8889vw;
+  margin-top: 5vw;
+}
+
+.payment_info .select-payment li:nth-of-type(1),
+.payment_info .select-payment li:nth-of-type(2),
+.cash-receipt .radio-list li:nth-of-type(1),
+.cash-receipt .radio-list li:nth-of-type(2){
+  margin-top: 0;
+}
+
+.payment-07{
+  line-height: 6.1111vw;
+}
+
+/* 현금영수증 */
+.cash-receipt-info-phone input{
+  width: 28.8889vw;
+}
+
+.cash-receipt-info-card input{
+  width: 20.2778vw;
+}
+.cash-receipt-info-card span{
+  text-align: center;
+}
+
+
+/* 간편결제 */
+.payment-inner{
+  display: none;
+  padding-top: 4.4444vw;
+  padding-bottom: 4.4444vw;
+}
+.payment-inner.on {
+  display: block;
+}
+.simple-payment h3{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.simple-payment .btn-simple-pay{
+  display: flex;
+}
+
+.simple-payment-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.simple-payment-list li{
+  width: 68.0556vw;
+  height: 38.8889vw;
+  padding: 3.3333vw;
+  border-radius: 2.2222vw;
+  border: 1px solid #e7e0da;
+}
+
+.account-add-before{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 5vw;
+}
+
+.ico-account-add{
+  width: 11.1111vw;
+  height: 11.1111vw;
+  background: url(../images/ico_account_add.svg) no-repeat center / 11.1111vw 11.1111vw;
+}
+
+.btn-arrow-right{
+  width: 3.8889vw;
+  height: 3.8889vw;
+  background: url(../images/btn_arrow_right.svg) no-repeat center / 3.8889vw 3.8889vw;
+}
+
+/* 불릿 */
+.bullet-area .bullet-ico{
+  display: flex;
+  justify-content: center;
+}
+.bullet-area .bullet{
+  width: 2.2222vw;
+  height: 2.2222vw;
+  background-color: #edece9;
+  border-radius: 50%;
+  margin-right: 2.2222vw;
+}
+.bullet-area .bullet.on{
+  background-color: #262627;
+}
+
+.bullet-area .bullet:last-child{
+  margin-right: 0;
+}
+
+
+/* 신용/체크 카드결제 */
+.select-wrap{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-payment .select-wrap select{
+  width: 44.4444vw
+}
+
+.li-bullet li{
+  font-size: 3.0556vw;
+  color: #8c8581;
+  line-height: 4.4444vw;
+  margin-left: 1.4417vw;
+  margin-bottom: 1.1111vw;
+}
+
+.li-bullet li:last-child{
+  margin-bottom: 0;
+}
+
+.kakao-payment-txt,
+.escrow-payment-txt,
+.bill-info .phone-payment-txt li{
+  color: #524e4c;
+}
+
+.li-bullet li::marker{
+  content: '∙ ';
+}
+
+.bill-info-txt h3{
+  font-size: 3.8889vw;
+  font-weight: 700;
+  color: #524e4c;
+}
+
+/* 휴대폰결제 */
+/* 가상계좌 결제 */
+/* 페이코결제 */
+.payco-payment-txt li{
+  font-size: 3.3333vw;
+  color: #262627;
+  margin-bottom: 1.6667vw;
+}
+.payco-payment-txt li:last-child{
+  margin-bottom: 0;
+}
+
+/* 카카오페이결제 */
+/* 에스크로결제 */
+
+/* 2020/12/10 신민하 orderpay-main-non-mem */
+/* =========================================== */
+
+.orderpay-main-non-mem .orderpay-title-sub .btn-change-non-mem{
+  color: #6cae7e;
+}
+
+.orderpay-main-non-mem .info-ship-text{
+  line-height: 5.5556vw;
+}
+
+.orderpay-main-non-mem .payment-inner{
+  padding-bottom: 0;
+}

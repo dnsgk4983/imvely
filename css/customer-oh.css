@@ -1,0 +1,215 @@
+@charset 'utf-8';
+
+/* 2020/12/22 황운하 customer-faq-index */
+.customer-search {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.customer-search input{
+  height: 12.2222vw;
+  line-height: 5.5556vw;
+  font-size: 3.3333vw;
+  color: #8c8581;
+  padding: 0 13.3333vw 0 3.3333vw;
+  border: 1px solid #dedcd9;
+  background-color:#fcf9f7;
+}
+.customer-search input::placeholder {
+  line-height: 5.5556vw;
+  font-size: 3.3333vw;
+  color: #8c8581;
+}
+.customer-search input + button{
+  position: absolute;
+  right: 3.3333vw;
+}
+.ico-search {
+  width: 6.6667vw;
+  height: 6.6667vw;
+  background: url(../images/ico_search.svg)no-repeat center;
+}
+
+.customer-main .search-keywords > ul{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 3.3333vw;
+}
+
+.customer-main .search-keywords > ul > li {
+  padding: 1.1111vw 3.3333vw;
+  font-size: 3.6111vw;
+  letter-spacing: -1px;
+  border-radius: 4.4444vw;
+  margin-bottom: 2.2222vw;
+  background-color: #f0eeeb;
+}
+.customer-main .search-keywords > ul > li:not(:last-child) {
+  margin-right: 2.2222vw
+}
+.customer-main .search-keywords > ul > li:nth-child(6) {
+  margin-right: 0;
+}
+.customer-main .search-keywords > ul > li:nth-child(n + 7):nth-child(-n + 8) {
+  margin-bottom: 0;
+}
+
+.customer-main .search-tabs ul{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.customer-main .search-tabs ul li{
+  width: 30.2778vw;
+  height: 11.1111vw;
+  line-height: 11.1111vw;
+  font-size: 3.6111vw;
+  text-align: center;
+  border: 1px solid #8c8581;
+  border-right: none;
+  border-bottom: none;
+}
+.customer-main .search-tabs ul li.on {
+  color: #fff;
+  background-color: #8c8581;
+}
+
+.customer-main .search-tabs ul li:nth-child(3),
+.customer-main .search-tabs ul li:nth-child(6) { 
+  border-right: 1px solid #8c8581;
+}
+
+.customer-main .search-tabs ul li:nth-child(n+4):nth-child(-n+6) {
+  border-bottom: 1px solid #8c8581;
+}
+
+.customer-main .search-accordion-wrapper {
+  margin-top: 6.6667vw;
+}
+
+.customer-main .search-none-area {
+  margin-top: 15.5556vw;
+  text-align: center;
+}
+.customer-main .search-none-area h2 {
+  line-height: 5.5556vw;
+  font-size: 4.4444vw;
+  color: #bcb3ac;
+}
+
+/* 2020/12/22 황운하 customer-use-guide */
+.customer-guide .title{
+  padding: 0 4.4444vw;
+}
+.customer-guide .accordion {
+  padding: 3.3333vw 4.4444vw;
+  background-color: #fcf9f7;
+}
+.customer-guide .title h3 {
+  line-height: 5.5556vw;
+  font-size: 4.4444vw;
+}
+.customer-guide .accordion h3 {
+  line-height: 5.5556vw;
+  font-size: 3.8889vw;
+  margin-bottom: 2.2222vw;
+  font-weight: bold;
+}
+.customer-guide .accordion h3:not(:first-child) {
+  margin-top: 4.4444vw;
+}
+.customer-guide .accordion p {
+  line-height: 5.5556vw;
+  font-size: 3.8889vw;
+}
+
+/* 2020/12/22 황운하 customer-weekly-update */
+.customer-weekly nav {
+  margin-bottom: 6.6667vw;
+  border-bottom: 1px solid #f0eeeb;
+}
+.customer-weekly .weekly-calendar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.3333vw 2.2222vw;
+  border-radius: 2.2222vw;
+  margin-bottom: 6.6667vw;
+  background-color: #fcf9f7;
+}
+
+.customer-weekly .weekly-calendar ul {
+  z-index: 5;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.btn-arrow-left {
+  width: 6.6667vw;
+  height: 6.6667vw;
+  background: url(../images/btn_arrow_left.svg)no-repeat center;
+}
+.customer-weekly .weekly-calendar .btn-arrow-right{
+  width: 6.6667vw;
+  height: 6.6667vw;
+  background: url(../images/btn_arrow_right.svg)no-repeat center / 6.6667vw 6.6667vw;
+}
+.customer-weekly .weekly-calendar ul li {
+  margin: 0 5.5556vw;
+}
+.customer-weekly .weekly-calendar p{
+  margin-top: 4.4444vw;
+}
+.customer-weekly .weekly-calendar ul li > * {
+  z-index: 10;
+  position: relative;
+  line-height: 5vw;
+  font-size: 3.8889vw;
+  text-align: center;
+}
+.customer-weekly .weekly-calendar ul li.on > * {
+  font-weight: bold;
+}
+.customer-weekly .weekly-calendar ul li.on > span {
+  color: #df9cdf;
+}
+.customer-weekly .weekly-calendar ul li.on > p::before{
+  z-index: -1;
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -65%;
+  width: 8.3333vw;
+  height: 8.3333vw;
+  border-radius: 50%;
+  background-color: #df9cdf;
+}
+
+.customer-weekly .weekly-note {
+  margin-top: 11.1111vw;
+}
+.customer-weekly .weekly-note ul > li::marker {
+  content: "· ";
+}
+.customer-weekly .weekly-note ul > li {
+  font-size: 3.0556vw;
+  line-height: 4.4444vw;
+  margin-bottom: 1.1111vw;
+  color: #8c8581;
+}
+
+/* 2020/12/23 황운하 customer-weekly-popup */
+.ico-close {
+  width: 6.6667vw;
+  height: 6.6667vw;
+  background: url(../images/ico_close_bk.svg)no-repeat center;
+}
+.weekly-popup > div {
+  height: 13.3333vw;
+}
+.weekly-popup > div > h2 {
+  font-size: 4.4444vw;
+  line-height: 6.6667vw;
+}

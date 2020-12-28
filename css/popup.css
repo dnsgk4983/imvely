@@ -1,0 +1,224 @@
+@charset 'utf-8';
+
+/* 2020/11/26 황운하 작은 팝업 css */
+.small-popup{
+  width: 73.3333vw;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 2.2222vw;
+  background-color: #ffffff;
+}
+.small-popup-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 6.1111vw;
+  padding: 6.6667vw 4.4444vw;
+}
+.small-popup-btn-wrap{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid #f0eeeb;
+}
+.small-popup-btn-wrap button{
+  width: 50%;
+  height: 13.3333vw;
+  text-align: center;
+}
+.small-popup-btn-wrap > button:first-child{
+  border-right: 1px solid #f0eeeb;
+}
+
+
+/* 2020/12/01 황운하 medium(264px) 팝업 */
+.medium-popup{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 73.3333vw;
+  height: auto;
+  border-radius: 2.2222vw;
+  background-color: #fff;
+}
+
+.medium-popup-content{
+  padding: 6.6667vw 4.4444vw;
+  line-height: 5.5555vw;
+}
+
+.medium-popup button:first-child{
+  border-right: 1px solid #f0eeeb;
+}
+.medium-popup .horizontal{
+  width: 100%;
+  border-top: 1px solid #f0eeeb;
+}
+.medium-popup .horizontal button{
+  width: 100%;
+  height: 13.3333vw;
+  line-height: 13.3333vw;
+}
+
+/* 2020/12/01 황운하 large(320px) 팝업 */
+.large-popup{
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 88.8889vw;
+  height: auto;
+  padding: 6.6667vw 4.4444vw;
+  border-radius: 2.2222vw;
+  background-color: #fff;
+}
+
+.large-popup-content{
+  width: 100%;
+}
+
+.large-popup .large-popup-benefit{
+  width: 80vw;
+  height: auto;
+  padding: 6.6667vw 4.4444vw;
+  border: 1px solid #df9cdf;
+  border-radius: 2.2222vw;
+  background-color: #fff2ff;
+}
+
+.large-popup .badge-small-close{
+  top: 4.4444vw;
+  right: 4.444vw;
+  width: 6.6667vw;
+  height: 6.6667vw;
+
+}
+.large-popup.benefit-popup{
+  padding: 6.6667vw 4.4444vw;
+}
+
+
+/* 2020/12/24 황운하 popup style 정리 */
+.popup-1{
+  position: relative;
+  width: 73.3333vw;
+  height: 66.6667vw;
+  overflow: hidden;
+  border-radius: 2.2222vw;
+  background-color: #ffffff;
+}
+.popup-content-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 73.3333vw;
+  height: 53.3333vw;
+  padding: 6.6667vw 4.4444vw;
+}
+.popup-content-area h2 {
+  font-size: 4.4444vw;
+  line-height: 6.1111vw;
+  font-weight: bold;
+}
+.popup-btn-area{
+  position: absolute;
+  bottom: 0;
+  height: 13.3333vw;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid #f0eeeb;
+}
+
+.popup-btn-area button {
+  width: 50%;
+  line-height: 5.5556vw;
+  font-size: 4.4444vw;
+  font-weight: bold;
+}
+ .popup-btn-area .btn-medium{
+  width: 46.1111vw;
+  height: 13.3333vw;
+  color: #8c8581;
+  border-radius: 0;
+  border-right: 1px solid #f0eeeb;
+}
+.popup-btn-area .btn-small{
+  width: 27.2222vw;
+  height: 13.3333vw;
+}
+
+/* popup-2 */
+.popup-2 {
+  position: relative;
+  width: 88.8889vw;
+  height: 117.2222vw;
+  padding: 13.3333vw 0;
+  overflow: hidden;
+  border-radius: 2.2222vw;
+  background-color: #ffffff;
+}
+.popup-header{
+  position: absolute;
+  top: 0;
+  height: 13.3333vw;
+  line-height: 13.3333vw;
+}
+.popup-header > h2 {
+  font-size: 5vw;
+  font-weight: bold;
+}
+.popup-header button {
+  padding-top: 4.4444vw;
+}
+.single-button {
+  width: 100%;
+}
+.single-button .purple{
+  width: 100%;
+  height: 13.3333vw;
+  line-height: 13.3333vw;
+  font-size: 4.4444vw;
+  line-height: 5.5556vw;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #df9cdf;
+}
+.scroll-content-area {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding: 6.6667vw 4.4444vw;
+}
+.dummy-text {
+  width: 100%;
+  height: 150vw;
+}
+
+
+.popup-btn-area .purple {
+  height: 13.3333vw;
+  color: #fff;
+  background-color: #df9cdf;
+}
+
+.popup-4 {
+  padding-bottom: 0;
+}
+
+.popup-5 {
+  position: relative;;
+  width: 73.3333vw; 
+  height: 39.1667vw;
+  padding-bottom: 13.3333vw;
+  overflow: hidden;
+  border-radius: 2.2222vw;
+  background-color: #ffffff;
+}
+.popup-5 .popup-content-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 6.6667vw 4.4444vw;
+}

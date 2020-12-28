@@ -1,0 +1,144 @@
+@charset 'utf-8';
+
+
+/* 2020/12/08 신민하 favorite */
+
+/* .favorite-list{
+  padding-bottom: 27.7778vw;
+} */
+.favorite-wish .tab-menu-nav{
+  height: 13.3333vw;
+  background-color: #f0eeeb;
+}
+
+.favorite-wish .tab-menu-nav ul li{
+  color:#bcb3ac;
+  font-weight: 400;
+}
+
+.favorite-wish .tab-menu-nav ul li.on{
+  color:#262627;
+  font-weight: 700;
+}
+
+.favorite-product-count span{
+  font-weight: 700;
+}
+
+.favorite-wish .filter-icon-area{
+  display: flex;
+  justify-content: space-between;
+  height: 4.7222vw;
+  margin-bottom: 6.6667vw;
+}
+
+.favorite-wish .d-flex label input[type="checkbox"] + i{
+  width: 4.4444vw;
+  height: 4.4444vw;
+  background-size: 4.4444vw 4.4444vw;
+  margin-right: 2.2222vw;
+}
+.favorite-wish .d-flex label{
+  display: flex;
+  align-items: center;
+}
+
+
+.badge-date-gr{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22.2222vw;
+  height: 6.6667vw;
+  color:#8c8581;
+  border: 1px solid #dedcd9;
+  border-radius: 3.1944vw;
+}
+
+.favorite-wish .tab-menu-nav ul li.on::after{
+  content:none;
+}
+
+.favorite-wrap .vertical .product .product-wrap .text-area .product-tag span{
+  padding-right: 0.5556vw;
+}
+
+.favorite-wish .vertical .product .product-wrap .text-area{
+  justify-content: space-evenly;
+}
+.favorite-wish .favorite-recently .product{
+  margin-top: 4.4444vw;
+}
+
+
+
+/* empty */
+.favorite-empty{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 22.2222vw;
+}
+
+.influencer-mall-img-area{
+  width: 100%;
+  height: 52.5000vw;
+  background-color: #bebebe;
+  justify-content: center;
+  text-align: center;
+}
+
+.favorite-empty-ico-wrap{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.favorite-empty-ico-wrap p{
+  line-height: 6.1111vw;
+  margin-top: 3.8889vw;
+}
+
+.ico-favorite-empty{
+  width: 22.2222vw;
+  height: 22.2222vw;
+  background: url(../images/ico_favorite_empty.svg) no-repeat center / 22.2222vw 22.2222vw;
+}
+
+.follow-brand-empty{
+  padding-top: 11.1111vw;
+}
+
+.ico-view-empty{
+  width: 22.2222vw;
+  height: 22.2222vw;
+  background: url(../images/ico_view_empty.svg) no-repeat center / 22.2222vw 22.2222vw;
+}
+
+.ico-bookmark-empty{
+  width: 6.1111vw;
+  height: 7.7778vw;
+  background: url(../images/btn_bookmark_big.png) no-repeat center / 6.1111vw 7.7778vw;
+}
+
+
+/* ===================================== */
+
+.favorite-wish .switch button i {
+  width: 4.4444vw;
+  height: 4.4444vw;
+}
+
+.favorite-wish .switch .filter-list i {
+  background: url(../images/ico_filter_list_two.svg) no-repeat center/ 4.4444vw 4.4444vw;
+}
+
+/* 상품 보기 방식 변경 버튼 */
+.favorite-wish .switch .filter-list.on i {
+  background: url(../images/ico_filter_list_one.svg) no-repeat center/ 4.4444vw 4.4444vw;
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="28" viewBox="0 0 80 28">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g transform="translate(-836 -3288) translate(836 3288)">
+                <rect width="79" height="27" x=".5" y=".5" fill="#FFF" stroke="#6CAE7E" rx="13.5"/>
+                <g>
+                    <text fill="#6CAE7E" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo" font-size="11" letter-spacing="-.183" transform="translate(11 6)">
+                        <tspan x="20" y="12">알림받기</tspan>
+                    </text>
+                    <g stroke="#6CAE7E">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.4 12.533c.391.903 1.275 1.534 2.3 1.534 1.027 0 1.91-.631 2.301-1.534" transform="translate(11 6) translate(1.333 1)"/>
+                        <path d="M.629 11.12c-.228 0-.437-.15-.484-.366-.047-.214.053-.425.257-.516.049-.031.413-.278.778-1.026.67-1.374.811-3.31.811-4.691C1.991 2.028 4.081 0 6.651 0c2.565 0 4.652 2.018 4.662 4.503v.018c0 1.382.14 3.317.81 4.69.366.749.73.996.779 1.027.204.09.304.302.257.516-.047.217-.256.366-.484.366H.63z" transform="translate(11 6) translate(1.333 1)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

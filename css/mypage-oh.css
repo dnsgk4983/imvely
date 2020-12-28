@@ -1,0 +1,790 @@
+@charset 'utf-8';
+
+/* 2020/12/16 황운하 mypage */
+.mypage-section{
+  background-color: #fcf9f7;
+}
+
+.mypage-section .mypage-intro{
+  padding: 6.6667vw 0;
+}
+.mypage-section .mypage-intro .horizontal{
+  padding: 0 4.4444vw;
+}
+.mypage-section .mypage-intro h2{
+  font-size: 4.4444vw;
+  margin-left: 2.2222vw;
+}
+.mypage-section .mypage-intro h2 span{
+  color: #df9cdf;
+}
+
+
+.mypage-section .mypage-intro .btn-area{
+  margin-top: 4.4444vw;
+  margin-bottom: 8.8888vw;
+}
+
+.mypage-section .mypage-intro .btn-area .btn-wrap{
+  width: 50%;
+}
+.mypage-section .mypage-intro .btn-area button{
+  font-size: 3.8889vw;
+  color: #524e4c;
+}
+
+.mypage-section .mypage-intro .ico-arrow-right{
+  margin-left: 1.1111vw;
+}
+
+.mypage-section .mypage-intro .mypage-intro-item{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33.3333vw;
+  height: 18.3333vw;
+}
+
+.mypage-section .mypage-intro .mypage-intro-item:nth-child(2)::before{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  content: "";
+  width: 0.2778vw;
+  height: 11.1111vw;
+  background-color: #f0eeeb;
+
+}
+.mypage-section .mypage-intro .mypage-intro-item:nth-child(2)::after{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  content: "";
+  width: 0.2778vw;
+  height: 11.1111vw;
+  background-color: #f0eeeb;
+}
+
+.mypage-section .mypage-intro .mypage-intro-itme span{
+  font-size: 3.3333vw;
+  color: #8c8581;
+  margin-bottom: 2.2222vw;
+}
+.mypage-section .mypage-intro .mypage-intro-item h3{
+  font-size: 6.1111vw;
+  font-weight: bold;
+  margin-top: 2.2222vw;
+}
+
+.mypage-section .mypage-intro .mypage-intro-inquiry{
+  margin-top: 6.6667vw;
+}
+.mypage-section .mypage-intro .mypage-intro-inquiry .inquiry-item{
+  width: 44.4444vw;
+  height: 17.7778vw;
+  padding: 3.6111vw 4.4444vw;
+  border: 2px solid #f0eeeb;
+  border-radius: 2.2222vw;
+  background-color: #fff;
+}
+
+.mypage-section .mypage-intro .mypage-intro-inquiry span{
+  font-size: 3.3333vw;
+  color: #8c8581;
+}
+.mypage-section .mypage-intro .mypage-intro-inquiry h3{
+  font-size: 4.4444vw;
+  font-weight: bold;
+  margin-top: 1.1111vw;
+}
+
+.mypage-section .menu-list h3{
+  font-size: 4.4444vw;
+  font-weight: bold;
+  padding-left: 4.4444vw;
+  margin-bottom: 4.4444vw;
+}
+
+.mypage-section .btn-wrap button{
+  display: flex;
+  align-items: center;
+  width: 44.4444vw;
+  height: 17.7778vw;
+  padding: 3.3333vw 2.2222vw;
+  border-radius: 1.1111vw;
+  background: #f0eeeb;
+}
+.mypage-section .btn-wrap button i{
+  margin-right: 3.3333vw;
+}
+.mypage-section .btn-wrap span{
+  font-size: 3.3333vw;
+}
+.mypage-section .btn-wrap h3{
+  font-size: 4.4444vw;
+  line-height: 5.5556vw;
+  margin-top: 0.5556vw;
+  font-weight: bold;
+}
+
+.mypage-section .btn-wrap p{
+  font-size: 3.8889vw;
+}
+
+/* 2020/12/16 황운하 mypage-deposit */
+
+
+.mypage-deposit > .text-right{
+  margin-top: 6.6667vw;
+  margin-bottom: 4.4444vw;
+}
+
+.mypage-deposit > .text-right button{
+  line-height: 5.5556vw;
+  font-size: 3.8889vw;
+  color: #8c8581;
+}
+
+.mypage-total-area{
+  line-height: 5.5556vw;
+  padding: 5.5556vw 3.3333vw;
+  border-top: 1px solid #bcb3ac;
+  border-bottom: 1px solid #bcb3ac;
+  background-color: #fcf9f7;
+}
+.mypage-total-area > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mypage-total-area p{
+  font-size: 3.8889vw;
+  color: #8c8581;
+}
+.mypage-total-area h3{
+  font-size: 5.5556vw;
+  font-weight: bold;
+}
+.mypage-total-area h3::after{
+  content: "원";
+}
+
+.date-select-area label{
+  width: 28.3333vw;
+}
+.date-select-area label input {
+  width: 22.7778vw;
+  font-size: 3.8889vw;
+}
+.date-select-area span {
+  margin: 0 2.2222vw;
+}
+
+.date-select-area{
+  margin: 8.8888vw 0 6.6667vw;
+}
+
+.mypage-list-area{
+  margin-top: 11.1111vw;
+}
+
+.mypage-list-area > ul > li { 
+  padding: 6.6667vw 0 4.4444vw;
+  border-top: 1px solid #f0eeeb;
+}
+
+.mypage-list-area > ul > li > div {
+  line-height: 5.5556vw;
+}
+.mypage-list-area > ul > li > div > p {
+  font-size: 3.8889vw;
+  font-weight: bold;
+}
+.mypage-list-area span {
+  font-size: 3.8889vw;
+  font-weight: bold;
+}
+.mypage-list-area span::after{
+  content: "원";
+}
+.mypage-list-area span.deducted {
+  color: #c94b4b;
+}
+.mypage-list-area span.deducted::before {
+  content: "-";
+}
+.mypage-list-area span.increase {
+  color: #56a0c4;
+}
+.mypage-list-area span.increase::before {
+  content: "+";
+}
+.mypage-list-area > ul > li > p {
+  line-height: 5.5556vw;
+  font-size: 3.3333vw;
+  margin-top: 2.2222vw;
+}
+
+.mypage-deposit .mypage-list-area > ul > li button {
+  text-decoration: underline;
+}
+
+/* 2020/12/16 deposit-refund */
+.deposit-refund{
+  padding-top: 6.6667vw;
+}
+.deposit-refund .refund-able-deposit > div > div > h3 {
+  line-height: 5.5556vw;
+  font-size: 3.8889vw;
+  color: #8c8581;
+}
+.deposit-refund .refund-able-deposit > div > div > p {
+  line-height: 5.5556vw;
+  font-size: 3.8889vw;
+  font-weight: bold;
+  margin-left: 2.2222vw;
+}
+.deposit-refund .refund-able-deposit input[type=checkbox] + i {
+  margin-right: 2.2222vw;
+}
+.deposit-refund .refund-able-deposit > div > div > p::after{
+  content: "원";
+}
+.deposit-refund .refund-able-deposit input.normal{
+  text-align: right;
+  margin-top: 4.4444vw;
+}
+
+.deposit-refund .refund-account-list > li > div > p {
+  line-height: 5.5556vw;
+  font-size: 3.8889vw;
+  font-weight: bold;
+}
+
+.deposit-refund .refund-account-list button { 
+  font-size: 3.8889vw;
+  line-height: 5.5556vw;
+  color: #8d8580;
+}
+
+.deposit-refund .refund-account-list > li > p {
+  line-height: 5.5556vw;
+  font-size: 3.8889vw;
+  margin-top: 2.2222vw;
+}
+.deposit-refund .refund-account-list > li:not(:first-child) {
+  margin-top: 6.6667vw;
+}
+
+.deposit-refund .deposit-note ul{
+  padding-left: 2.2222vw;
+}
+.deposit-refund .deposit-note ul > li::marker{
+  content: "· ";
+}
+.deposit-refund .deposit-note ul > li {
+  line-height: 4.4444vw;
+  font-size: 3.0556vw;
+  color: #8c8581;
+}
+
+.deposit-refund .deposit-note ul > li:not(:first-child) {
+  margin-top: 1.1111vw;
+}
+
+.deposit-refund .btn-wrap{
+  margin-top: 11.1111vw;
+}
+
+/* 2020/12/16 황운하 mypage-point */
+.mypage-point {
+  padding-top: 6.6667vw;
+}
+.mypage-total-point p + *::after{
+  content: "P";
+}
+
+.mypage-total-point h4{
+  line-height: 5.5556vw;
+  font-size: 3.8889vw;
+  font-weight: bold;
+}
+.mypage-total-point span{
+  line-height: 5.5556vw;
+  font-size: 3.8889vw;
+}
+.mypage-point .date-select-area{
+  margin: 6.6667vw 0;
+}
+
+/* 2020/12/16 황운하 mypage-coupon*/
+.mypage-sale-coupon .coupon-wrap{
+  margin-top: 6.6667vw;
+  padding: 0 4.444vw;
+}
+.nav-tab-area{
+  margin-top: 11.1111vw;
+}
+.nav-tab-area > ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav-tab-area > ul > li {
+  line-height: 5.5556vw;
+  font-size: 4.4444vw;
+  font-weight: bold;
+  color: #8c8581;
+}
+.nav-tab-area > ul > li:first-child {
+  margin-right: 6.6667vw;
+}
+
+.nav-tab-area > ul > li.on {
+  color: #262627;
+}
+
+.mypage-sale-coupon .use-able-coupon{
+  margin-top: 5.5556vw;
+}
+.mypage-sale-coupon .use-able-coupon > div > ul {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4.4444vw;
+}
+
+.mypage-sale-coupon .use-able-coupon > div > ul > li {
+  line-height: 5.5556vw;
+  font-size: 3.8889vw;
+  color: #8c8581;
+  padding: 1.6667vw 5.5556vw;
+  border-radius: 4.4444vw;
+}
+
+.mypage-sale-coupon .use-able-coupon > div > ul > li.on {
+  color: #262627;
+  background-color: #e7e0da;
+}
+
+.mypage-sale-coupon .product-coupon {
+  padding: 5.5556vw 4.4444vw 13.3333vw;
+  background-color: #e7e0da;
+}
+
+.mypage-sale-coupon .product-coupon li{
+  padding: 4.4444vw;
+  border-radius: 2.2222vw;
+  background-color: #ffffff;
+}
+.mypage-sale-coupon .product-coupon li:not(:first-child){
+  margin-top: 4.4444vw;
+}
+
+.mypage-sale-coupon .product-coupon ul > li > div {
+  list-style: 5vw;
+  font-size: 3.3333vw;
+  color: #524e4c;
+  margin-bottom: 2.2222vw;
+}
+.mypage-sale-coupon .product-coupon ul > li > h3 {
+  line-height: 5vw;
+  font-size: 5vw;
+  font-weight: bold;
+}
+.mypage-sale-coupon .mypage-total-sale p + *::after {
+  content: "장";
+}
+
+.mypage-sale-coupon .product-coupon ul > li > p {
+  line-height: 5vw;
+  font-size: 3.3333vw;
+  color: #8c8581;
+}
+
+/* 2020/12/17 황운하 mypage-user-rank*/
+.mypage-user-rank .my-rank{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 6.6667VW 0;
+  background-color: #fcf9f7;
+}
+
+.mypage-user-rank .my-rank .img-area .img-box i{
+  margin: 4.4444vw 0;
+}
+
+.mypage-user-rank .my-rank h2 span{
+  color: #df9cdf;
+}
+.mypage-user-rank .my-rank h2{
+  margin-bottom: 2.2222vw;
+}
+.mypage-user-rank .my-rank p span{
+  color: #8c8581;
+}
+.mypage-user-rank .my-rank .img-area .img-box i {
+  width: 13.3333vw;
+  height: 13.3333vw;
+}
+.mypage-user-rank .my-rank-area .img-area .img-box i{
+  width: 13.3333vw;
+  height: 13.3333vw;
+}
+.ico-rank-s-star{
+  background: url(../images/ico_rank_badge_sstar.svg)no-repeat center;
+}
+.ico-rank-star{
+  background: url(../images/ico_rank_badge_star.svg)no-repeat center;
+}
+.ico-rank-gold{
+  background: url(../images/ico_rank_badge_gold.svg)no-repeat center;
+}
+.ico-rank-silver{
+  background: url(../images/ico_rank_badge_silver.svg)no-repeat center;
+}
+.ico-rank-pink{
+  background: url(../images/ico_rank_badge_pink.svg)no-repeat center;
+}
+.ico-rank-white{
+  background: url(../images/ico_rank_badge_white.svg)no-repeat center;
+}
+
+.mypage-user-rank > .container-16 > article > h2 {
+  margin: 6.6667vw 0;
+}
+
+.mypage-user-rank .coupon-wrapper{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.mypage-user-rank .coupon-wrapper .coupon-area{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 38.8889vw;
+  height: 17.7778vw;
+  font-size: 6.1111vw;
+  color: #fff;
+  font-weight: bold;
+}
+.mypage-user-rank .coupon-wrapper > li > p {
+  line-height: 5.5556vw;
+  font-size: 3.3333vw;
+  text-align: center;
+  margin: 2.22222vw 0 6.6667vw;
+}
+.mypage-user-rank .coupon-wrapper .coupon-area.gr{
+  background: url(../images/img_rank_coupon_gn.svg)no-repeat center;
+}
+.mypage-user-rank .coupon-wrapper .coupon-area.yw{
+  background: url(../images/img_rank_coupon_yw.svg)no-repeat center;
+}
+.mypage-user-rank .coupon-wrapper .coupon-area.bl{
+  background: url(../images/img_rank_coupon_bl.svg)no-repeat center;
+}
+.mypage-user-rank .coupon-wrapper .coupon-area.bk{
+  background: url(../images/img_rank_coupon_bk.svg)no-repeat center;
+}
+
+.mypage-user-rank > .container-16 > article.photo-review > h2 {
+  margin-bottom: 2.2222vw;
+}
+
+.mypage-user-rank .photo-review > p {
+  font-size: 3.8889vw;
+  line-height: 5.5556vw;
+  margin-bottom: 6.6667vw;
+}
+
+.mypage-user-rank .rank-benefit > h2{
+  margin: 6.6667vw 4.4444vw;
+}
+.mypage-user-rank .rank-benefit > .nav-rank{
+  display: flex;
+  justify-content: space-between;
+  padding: 1.6667vw 5.8333vw;
+  background-color: #f0eeeb;
+}
+.mypage-user-rank .rank-benefit > .nav-rank > li {
+  line-height: 5.5556vw;
+   font-size: 3.6111vw;
+   color: #bcb3ac;
+}
+.mypage-user-rank .rank-benefit > .nav-rank li.on { 
+  color: #262627;
+  font-weight: bold;
+}
+
+.mypage-user-rank .my-rank-area{
+  padding: 0 4.4444vw;
+}
+.mypage-user-rank .my-rank-area > div > .d-flex {
+  margin: 6.6667vw 0;
+}
+
+.mypage-user-rank .my-rank-area .text-area {
+  margin-left: 2.2222vw;
+}
+.mypage-user-rank .my-rank-area .text-area h2 {
+  font-size: 4.4444vw;
+  font-weight: bold;
+  margin-bottom: 2.7778vw;
+}
+.mypage-user-rank .my-rank-area .text-area p{
+  font-size: 3.3333vw;
+}
+.mypage-user-rank .my-rank-area .text-area b{
+  font-weight: bold;
+}
+.mypage-user-rank .my-rank-area .coupon-wrapper {
+  padding-top: 6.6667vw;
+}
+
+.mypage-user-rank .user-rank-note{
+  padding-bottom: 20.2778vw;
+}
+.mypage-user-rank .user-rank-note .title{
+  padding: 0 4.4444vw;
+}
+.mypage-user-rank .user-rank-note .title h3{
+  font-size: 3.8889vw;
+  font-weight: bold;
+}
+
+.mypage-user-rank .user-rank-note li::marker {
+  content: "";
+}
+.mypage-user-rank .user-rank-note .accordion {
+  padding: 3.3333vw 4.4444vw;
+  background-color: #fcf9f7;
+}
+.mypage-user-rank .user-rank-note .accordion li {
+  font-size: 3.8889vw;
+  line-height: 5.5556vw;
+}
+
+/* 2020/12/18 황운하 mypage-review-write */
+.product-review-write .video-regist-area > ul > li {
+  position: relative;
+  width: 44.4444vw;
+  height: 44.4444vw;
+}
+.product-review-write .video-regist-area > ul > li > img {
+  position: relative;
+  width: 100%;
+}
+.product-review-write .video-regist-area > ul > li::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  width: 4.4444vw;
+  height: 4.4444vw;
+  border-radius: 50%;
+  background: url(../images/btn_delete.svg)no-repeat center;
+}
+
+/* 2020/12/18 황운하 mypage-myfit-info */
+.myfit-info > h2 {
+  line-height: 6.1111vw;
+}
+
+.myfit-info > article > p {
+  line-height: 5.5556vw;
+  font-size: 3.8889vw;
+  margin-top: 6.6667vw;
+  margin-bottom: 2.2222vw;
+}
+
+.myfit-info select {
+  line-height: 5.5556vw;
+  font-size: 3.8889vw;
+}
+
+.myfit-info > article > div > div {
+  width: 50%;
+}
+.myfit-info label input[type=radio] + i {
+  margin-right: 2.2222vw;
+}
+
+.myfit-info ul {
+  margin: 6.6667vw 0;
+  padding-left: 2.2222vw;
+}
+.myfit-info ul > li {
+  line-height: 4.4444vw;
+  font-size: 3.0556vw;
+  color: #8c8581;
+}
+.myfit-info ul > li::marker { 
+  content: "· ";
+}
+.myfit-info > article > label > input[type=checkbox] + i {
+  margin-right: 2.2222vw;
+}
+
+/* 2020/12/18 황운하 mypage-setting */
+.mypage-list-section .menu-list > ul > li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4.4444vw;
+  background-color: #fff;
+}
+.mypage-list-section .menu-list > ul > li > a {
+  padding: 0;
+}
+.ico-korea{
+  width: 9.444vw;
+  height: 5.5556vw;
+  background: url(../images/ico_korea.svg)no-repeat center;
+}
+.mypage-list-section .select-language i {
+  vertical-align: middle;
+  margin-right: 2.2222vw;
+}
+.mypage-list-section > .menu-list > .select-language > li,
+.mypage-list-section > .menu-list > .licence > li {
+  background: url(../images/btn_arrow_right.svg) no-repeat 90vw center;
+}
+
+.mypage-list-section .menu-list > p {
+  line-height: 5.5556vw;
+  font-size: 3.3333vw;
+  padding: 3.3333vw 4.4444vw 0;
+
+}
+
+/* 2020/12/21 황운하 mypage-check */
+.mypage-check .mypage-check-top h2 {
+  line-height: 6.1111vw;
+  font-size: 4.4444vw;
+}
+.mypage-check .mypage-check-top p {
+  margin: 4.4444vw 0 6.6667vw;
+  line-height: 5vw;
+  font-size: 3.8889vw;
+}
+.mypage-check .mypage-calendar {
+  padding: 6.6667vw 4.4444vw 23.3333vw;
+  background-color: #fcf9f7;
+}
+.mypage-check .calendar-header {
+  display: flex;
+  justify-content: center;
+}
+.mypage-check .calendar-header .btn-prev {
+  width: 6.6667vw;
+  height: 6.6667vw;
+  background: url(../images/btn_arrow_left.svg)no-repeat center;
+}
+.mypage-check .calendar-header .open-calendar {
+  font-size: 5.5556vw;
+  font-weight: bold;
+  margin: 0 20.5556vw;
+}
+.mypage-check .calendar-header .btn-next {
+  width: 6.6667vw;
+  height: 6.6667vw;
+  background: url(../images/btn_arrow_right.svg)no-repeat center
+}
+
+.mypage-check .calendar-body {
+  margin-top: 6.6667vw;
+  background-color: #ffffff;
+}
+.mypage-check .calendar-body ul {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.mypage-check .calendar-body ul li {
+  display: block;
+  width: 12.7778vw;
+  height: 8.8889vw;
+  line-height: 8.8889vw;
+  text-align: center;
+}
+.mypage-check .calendar-date ul li {
+  margin: 2.2222vw 0;
+}
+
+.mypage-check .calendar-body ul li span {
+  font-size: 3.8889vw;
+}
+.mypage-check .calendar-body .calendar-week {
+  padding: 2.2222vw 0;
+  border-bottom: 1px solid #e7e0da;
+}
+
+.mypage-check .calendar-body ul > li:nth-child(7n){
+  color: #56a0c4;
+}
+.mypage-check .calendar-body ul > li:nth-child(7n + 1) {
+   color: #c94b4b;
+}
+
+.mypage-check .calendar-body ul > li.check span {
+  padding: 1.9444vw; 
+  font-weight: bold;
+  border-radius: 50%;
+  background-color: #df9cdf;
+}
+.mypage-check .calendar-body ul > li.today span{
+  padding: 1.9444vw;
+  border-radius: 50%;
+  border: 1px solid #df9cdf;
+}
+
+/* 2020/12/22 황운하 mypage-setting-country */
+.ico-usa{
+  width: 9.4444vw;
+  height: 5.5556vw;
+  background: url(../images/ico_usa.svg)no-repeat center;
+}
+.ico-china{
+  width: 9.4444vw;
+  height: 5.5556vw;
+  background: url(../images/ico_china.svg)no-repeat center;
+}
+.ico-japan{
+  width: 9.4444vw;
+  height: 5.5556vw;
+  background: url(../images/ico_japan.svg)no-repeat center;
+}
+.mypage-setting-country ul li {
+  padding: 0 4.4444vw;
+}
+.menu-list> .country-list > li {
+  background: transparent;
+}
+.menu-list .country-list > li > .country-area > i {
+   vertical-align: -4px;
+   margin-right: 2.2222vw
+}
+
+/* 2020/12/22 황운하 .weekly-upadate */
+.customer-weekly .common-gnb > ul {
+  padding: 0 6.6667vw;
+}
+.customer-weekly .common-gnb > ul > li > a {
+  width: auto;
+  margin-right: 6.6667vw;
+  color: #bcb3ac;
+}
+.customer-weekly .common-gnb > ul > li.on {
+  border: none;
+}
+.customer-weekly .common-gnb > ul > li.on > a {
+  color: #262627
+}

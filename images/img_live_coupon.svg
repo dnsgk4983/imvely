@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="116" viewBox="0 0 200 116">
+    <defs>
+        <linearGradient id="5hu9mk45rb" x1="9.64%" x2="100%" y1="66.82%" y2="33.18%">
+            <stop offset="0%" stop-color="#6CAE7E"/>
+            <stop offset="100%" stop-color="#82D99A"/>
+        </linearGradient>
+        <filter id="hu5enaxima" width="158%" height="200%" x="-29%" y="-50%" filterUnits="objectBoundingBox">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g filter="url(#hu5enaxima)" transform="translate(-80 -302) translate(80 302)">
+                <path fill="#FFF" stroke="url(#5hu9mk45rb)" stroke-width="4" d="M192 2c1.657 0 3.157.672 4.243 1.757C197.328 4.843 198 6.343 198 8h0v37.142c-3.066.438-5.811 1.87-7.9 3.959-2.533 2.533-4.1 6.033-4.1 9.899 0 3.866 1.567 7.366 4.1 9.9 2.089 2.088 4.834 3.52 7.9 3.958h0V108c0 1.657-.672 3.157-1.757 4.243-1.086 1.085-2.586 1.757-4.243 1.757h0H8c-1.657 0-3.157-.672-4.243-1.757C2.672 111.157 2 109.657 2 108h0V72.858c3.066-.438 5.811-1.87 7.9-3.959C12.432 66.366 14 62.866 14 59c0-3.866-1.567-7.366-4.1-9.9-2.089-2.088-4.834-3.52-7.9-3.958h0V8c0-1.657.672-3.157 1.757-4.243C4.843 2.672 6.343 2 8 2h0z"/>
+                <g>
+                    <text fill="#6CAE7E" font-family="Lato-Bold, Lato" font-size="24" font-weight="bold" letter-spacing="-.343" transform="translate(29 20)">
+                        <tspan x="31" y="51.192">5,000</tspan> <tspan x="91.218" y="48" font-family="AppleSDGothicNeo-Bold, Apple SD Gothic Neo">원</tspan>
+                    </text>
+                    <text fill="#262627" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" letter-spacing="-.2" transform="translate(29 20)">
+                        <tspan x="0" y="14">[IMVELY] 30</tspan> <tspan x="75.325" y="14" font-family="AppleSDGothicNeo-Bold, Apple SD Gothic Neo">분 시청쿠폰</tspan>
+                    </text>
+                    <text fill="#8C8581" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo" font-size="12" letter-spacing="-.171" transform="translate(29 20)">
+                        <tspan x="6" y="69">최소 30,000원 이상 구매시</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

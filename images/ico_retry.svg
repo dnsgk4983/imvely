@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>D6788FC3-D16B-4D37-98DB-55D8563F8CF3</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.149020 0 0 0 0 0.149020 0 0 0 0 0.152941 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-2">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.149020 0 0 0 0 0.149020 0 0 0 0 0.152941 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IM-MW-PD-05" transform="translate(-24.000000, -635.000000)">
+            <g id="Group-3" transform="translate(24.000000, 634.000000)">
+                <g id="icon/retry" transform="translate(0.000000, 1.000000)">
+                    <g filter="url(#filter-1)" id="ic">
+                        <g>
+                            <polygon id="Path" points="0 0 16 0 16 16 0 16"></polygon>
+                        </g>
+                    </g>
+                    <g filter="url(#filter-2)" id="ic-copy">
+                        <g>
+                            <polygon id="Path" points="0 0 16 0 16 16 0 16"></polygon>
+                        </g>
+                    </g>
+                    <path d="M12.0551397,3.57775397 C10.9872626,2.59800077 9.56346659,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 C11.3137085,14 14,11.3137085 14,8" id="Path" stroke="#262627" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <polyline id="Path" stroke="#262627" stroke-linecap="round" stroke-linejoin="round" points="12.8 1.5 12.8 4.5 9.8 4.5"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

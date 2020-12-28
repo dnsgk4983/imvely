@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+    <defs>
+        <filter id="o84vgfchza">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.149020 0 0 0 0 0.149020 0 0 0 0 0.152941 0 0 0 1.000000 0"/>
+        </filter>
+        <filter id="6zjbr6r29b">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.149020 0 0 0 0 0.149020 0 0 0 0 0.152941 0 0 0 1.000000 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g filter="url(#o84vgfchza)" transform="translate(-139 -260) translate(15 260) translate(124)">
+                        <path d="M0 0L24 0 24 24 0 24z"/>
+                    </g>
+                    <g>
+                        <path d="M0 0H80V80H0z" transform="translate(-139 -260) translate(15 260) translate(124)"/>
+                    </g>
+                    <g>
+                        <path fill="#DF9CDF" d="M28 0c5.039 0 9.352 3.106 11.13 7.507C40.438 6.864 41.925 6.5 43.5 6.5c3.95 0 7.337 2.284 8.77 5.534 1.008-.346 2.096-.534 3.23-.534 5.247 0 9.5 4.03 9.5 9s-4.253 9-9.5 9c-2.626 0-5.002-1.01-6.722-2.64C47.626 32.912 42.119 37.5 35.5 37.5c-6.279 0-11.556-4.127-13.066-9.718C20.152 30.65 16.55 32.5 12.5 32.5 5.596 32.5 0 27.127 0 20.5s5.596-12 12.5-12c1.346 0 2.643.204 3.858.582C17.66 3.865 22.378 0 28 0z" transform="translate(-139 -260) translate(15 260) translate(124) translate(9 8)"/>
+                        <g>
+                            <g stroke-linejoin="round" filter="url(#6zjbr6r29b)" transform="translate(-139 -260) translate(15 260) translate(124) translate(9 8) translate(11 13)">
+                                <g stroke="#262627" stroke-width="2">
+                                    <path fill="#262627" d="M5 13.333L35 13.333 40 48.333 0 48.333z" transform="translate(.667 .667)"/>
+                                    <path d="M12.333 13.333V8.115C12.47 2.705 15.113 0 20.266 0c5.154 0 7.842 2.705 8.067 8.115v5.218" transform="translate(.667 .667)"/>
+                                </g>
+                            </g>
+                            <g fill="#FFF" transform="translate(-139 -260) translate(15 260) translate(124) translate(9 8) translate(11 13) translate(10.5 30)">
+                                <circle cx="2" cy="2" r="2"/>
+                                <circle cx="10" cy="2" r="2"/>
+                                <circle cx="18" cy="2" r="2"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

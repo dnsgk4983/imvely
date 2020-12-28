@@ -1,0 +1,455 @@
+@charset 'utf-8';
+
+/* 2020/12/07 황운하 상품문의페이지 */
+.product-inquiry-section{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.ico-close-bk{
+  width: 6.6667vw;
+  height: 6.6667vw;
+  background: url(../images/ico_close_bk.svg)no-repeat center / 6.6667vw 6.6667vw;
+}
+.ico-inquiry{
+  width: 22.2222vw;
+  height: 22.2222vw;
+  background: url(../images/ico-inquiry.svg)no-repeat center / 22.2222vw 22.2222vw;
+}
+
+.product-inquiry-section .btn-wrap{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.product-inquiry-section .btn-wrap button{
+  width: 44.4444vw;
+  height: 15.5556vw;
+  font-size: 4.4444vw;
+  font-weight: bold;
+  border: 1px solid #262627;
+  border-radius: 1.1111vw;
+}
+.product-inquiry-section .btn-wrap .bg-black{
+  color: #fff;
+  background-color: #262627;
+}
+
+/* 2020/12/07 황운하 product-info-popup 수정 */
+.ico-diamond{
+  width: 4.4444vw;
+  height: 4.4444vw;
+  background: url(../images/ico_diamond.svg)no-repeat center / 4.4444vw 4.4444vw;
+  vertical-align: middle;
+  margin-right: 1.1111vw;
+}
+.benefit-popup{
+  height: 117.2222vw;
+}
+.benefit-item{
+  width: 13.3333vw;
+}
+.benefit-content{
+  margin-left: 5.8333vw;
+}
+
+.large-popup .large-popup-benefit{
+  height: 66.6667vw;
+  overflow-y: auto;
+}
+
+/* 2020/12/07 황운하 product-inquiry-write */
+.product-inquiry-note ul{
+  margin-top: 4.4444vw;
+  padding-left: 1.1111vw;
+  line-height: 5.5556vw;
+}
+.product-inquiry-note ul li{
+  list-style: disc;
+}
+.product-inquiry-note ul li:nth-child(n+1):nth-child(-n+3)::marker{
+  content: "· ";
+}
+.product-inquiry-note ul li:nth-child(n+4):nth-child(-n+5){
+  margin-left: 1.6667vw;
+}
+.product-inquiry-note ul li:nth-child(n+4):nth-child(-n+5)::marker{
+  content: "- ";
+}
+
+.product-inquiry-public .radio-area{
+  display: flex;
+}
+.product-inquiry-public label{
+  display: flex;
+  align-items: center;
+  margin-right: 8.8889vw;
+}
+.product-inquiry-public label i{
+  margin-right: 2.2222vw;
+}
+
+.product-inquiry-write-section .btn-wrap{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  bottom: 8.0556vw;
+}
+.product-inquiry-write-section .btn-wrap button{
+  width: 44.4444vw;
+  height: 13.3333vw;
+  line-height: 5.5556vw;
+  font-size: 4.4444vw;
+  font-weight: bold;
+  border: 1px solid #262627;
+  border-radius: 1.1111vw;
+}
+
+
+
+/* 2020/12/08 황운하 contents-all */
+
+.contents-all-wrap{
+  padding: 6.6667vw 4.4444vw;
+}
+.contents-all-wrap .contents-list{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contents-all-wrap .contents-list li{
+  width: 28.8889vw;
+  height: 28.8889vw;
+  margin-bottom: 2.2222vw;
+  position: relative;
+}
+.contents-all-wrap .contents-list li img{
+  width: 100%;
+}
+
+.contents-all-wrap .contents-list li.video::after{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  transform: translate(-50%, -50%);
+  width: 4.4444vw;
+  height: 4.4444vw;
+  background: url(../images/ico_play_small.svg)no-repeat center / 4.4444vw 4.4444vw;
+}
+
+/* 2020/12/08 황운하 review-detail-popup */
+.review-detail-header{
+  z-index: 20;
+  position: absolute;
+  width: 100%;
+}
+.review-detail-bottom .review-view{
+  border-bottom: none;
+}
+.review-detail-bottom .review-area p{
+  padding-bottom: 0;
+}
+
+.review-more-contents .horizontal p:first-child{
+  width: 22.2222vw;
+  margin-right: 2.2222vw;
+}
+
+.ico-arrow-up-small{
+  display: inline-block;
+  width: 3.8889vw;
+  height: 3.8889vw;
+  vertical-align: middle;
+  margin-left: 1.1111vw;
+  background: url(../images/btn_arrow_up_small.svg)no-repeat center / 3.8889vw 3.8889vw;
+}
+.review-detail-popup-wrap{
+  padding-bottom: 8.8889vw;
+}
+
+/* 2020/12/09 황운하 re-inventory */
+.re-inventory-wrapper {
+  padding-bottom: 8.0556vw;
+}
+.product-re-inventory-info input{
+  width: 28.8889vw;
+  height: 13.3333vw;
+  line-height: 5.5556vw;
+  font-size: 3.8889vw;
+  padding: 0 4.1667vw;
+  border: 1px solid #bcb3ac;
+  border-radius: 0.5556vw;
+}
+
+.product-re-inventory-note ul{
+  padding-left: 1.1111vw;
+}
+.product-re-inventory-note li{
+  line-height: 4.444vw;
+}
+.product-re-inventory-note li:not(:last-child){
+  margin-bottom: 1.1111vw;
+}
+.product-re-inventory-note li::marker{
+  content: "· ";
+}
+
+.product-inventory-wrapper .btn-wrap{
+  position: fixed;
+  bottom: 8.0556vw;
+}
+
+
+/* 이 부분 이후로는 orderpay.css 추가요청 */
+.orderpay-change-info-wrap{
+  padding: 6.6667vw 4.4444vw 0;
+}
+
+.orderpay-info {
+  margin-bottom: 6.6667vw;
+}
+.orderpay-info p{
+  font-size: 3.8889vw;
+  margin-bottom: 2.2222vw;
+}
+
+.user-info input{
+  width: 28.8889vw;
+  padding:0 3.3333vw;
+}
+.user-info input::placeholder{
+  font-size: 3.8889vw;
+}
+.user-info select{
+  padding-left: 3.3333vw;
+}
+
+.user-email input{
+  width: 27.2222vw;
+  padding:0 3.3333vw;
+}
+.user-email input::placeholder{
+  font-size: 3.8889vw;
+  color: #262627;
+}
+.user-email select{
+  padding-left: 3.3333vw;
+}
+.orderpay-change-info-wrap .btn-wrap{
+  padding-top: 4.4444vw;
+}
+
+/* 2020/12/09 황운하 orderpay-sertification-popup */
+.orderpay-sertification-popup ul{
+  padding-left: 1.1111vw;
+}
+.orderpay-sertification-popup ul li{
+  font-size: 3.3333vw;
+  color: #8c8581;
+  line-height: 5vw;
+}
+.orderpay-sertification-popup ul li::marker{
+  content: "· ";
+}
+
+.orderpay-sertification-popup .sertification-way{
+  margin: 11.1111vw 0;
+}
+.ico-sertification{
+  width: 22.2222vw;
+  height: 22.2222vw;
+  background: url(../images/ico_sertification.svg)no-repeat center / 22.2222vw 22.2222vw;
+}
+
+.orderpay-sertification-popup .btn-wrap .btn-medium{
+  width: 38.8889vw;
+}
+
+/* 2020/12/09 황운하 orderpay-change-destination */
+.orderpay-destination-wrap{
+  padding-top: 6.6667vw;
+}
+
+.orderpay-destination-wrap .destination-area{
+  position: relative;
+  padding: 4.4444vw 3.3333vw;
+  border: 2px solid #e7e0da;
+  border-radius: 2.2222vw;
+}
+.destination-area .badge-area .badge-item{
+  width: 22.2222vw;
+  height: 6.6667vw;
+  line-height: 6.6667vw;
+  color: #8c8581;
+  text-align: center;
+  border-radius: 3.1944vw;
+}
+.destination-area .badge-area .badge-item.default{
+  background-color: #f0eeeb;
+}
+.destination-area .text-area > p{
+  margin-top: 1.1111vw;
+}
+.ico-recycle{
+  width: 4.4444vw;
+  height: 4.4444vw;
+  background: url(../images/ico_recycle.svg)no-repeat center / 4.4444vw 4.4444vw;
+}
+.ico-pencil{
+  width: 4.4444vw;
+  height: 4.4444vw;
+  background: url(../images/ico_pencil.svg)no-repeat center / 4.4444vw 4.4444vw;
+}
+.destination-area .text-area > p{
+  font-size: 3.8889vw;
+  line-height: 5.5556vw;
+}
+
+/* 2020/12/09 황운하 orderpay-added-destination */
+.orderpay-added-destination-wrap{
+  padding-top: 6.6667vw;
+}
+.orderpay-added-destination-wrap input.normal + button > .ico-del{
+  width: 5.5556vw;
+  height: 5.5556vw;
+  background-size: 5.5556vw 5.5556vw;
+}
+.added-destination-info.user-name input{
+  padding: 0 11.1111vw 0 3.3333vw;
+}
+.added-destination-info.user-name input + button{
+  right: 7.7778vw;
+}
+.added-destination-info.user-tell input,
+.added-destination-info.user-tell select{
+  width: 28.8889vw;
+  padding: 0 8.8889vw 0 3.3333vw;
+}
+.added-destination-info.user-tell input + button{
+  right: 2.2222vw;
+}
+.added-destination-info p{
+  font-size: 3.8889vw;
+  line-height: 5.5556vw;
+  margin-bottom: 2.2222vw;
+}
+
+.added-destination-info label{
+  position: relative;
+}
+.added-destination-info.user-address input{
+  padding: 0 3.3333vw
+}
+.added-destination-info.user-address label input{
+  width: 61.1111vw;
+}
+.added-destination-info.user-address label button{
+  position: relative;
+  right: 0;
+  font-size: 4.4444vw;
+  line-height: 5.5556vw;
+}
+
+
+/* 2020/12/10 황운하 orderpay-my-address */
+.destination-area.active{
+  border-color: #bcb3ac;
+}
+.orderpay-destination-wrap .text-area .icon-area i:first-child {
+  margin-right: 3.3333vw;
+}
+.destination-area:not(:first-child){
+  margin-top: 4.4444vw;
+}
+
+/* 2020/12/10 황운하 orderpady-coupon-layer-popup */
+.orderpay-coupon-layer-wrap{
+  padding-top: 6.6667vw;
+}
+.orderpay-coupon-layer-wrap .coupon-area > p{
+  font-size: 3.8889vw;
+  margin-bottom: 2.2222vw;
+}
+.orderpay-coupon-layer-wrap .coupon-area:not(:first-child) > p{
+  margin-top: 6.6667vw;
+}
+
+.coupon-wrapper .coupon:not(:first-child){
+  margin-top: 3.6111vw;
+}
+.coupon-wrapper .coupon p{
+  font-size: 3.8889vw;
+  color: #8c8581;
+}
+.coupon-wrapper .coupon p:last-child{
+  font-weight: bold;
+  color: #262627;
+}
+.coupon-wrapper .coupon.total p:last-child{
+  font-size: 5.5556vw;
+}
+
+/* 2020/12/10 황운하 orderpay-success */
+
+.order-success-content{
+  padding:11.1111vw 0;
+}
+.ico-order-success{
+  width: 22.2222vw;
+  height: 22.2222vw;
+  background: url(../images/ico_order_success.svg)no-repeat center / 22.2222vw 22.2222vw;
+}
+.orderpay-success-wrap .order-success-content p{
+  font-size: 3.8889vw;
+  font-weight: bold;
+  margin-top: 4.4444vw;
+}
+.order-success-info{
+  padding-top: 6.6667vw;
+}
+.order-success-info > .content:not(.order-save-point) {
+  margin-bottom: 3.3333vw;
+}
+.order-success-info > .content > p {
+  font-size: 3.8889vw;
+  color: #8c8581;
+}
+.order-success-info > .content > span{
+  font-size: 3.8889vw;
+  font-weight: bold;
+}
+.order-success-info > .content.order-total-price > span{
+  font-size: 5vw;
+}
+.order-success-info button{
+  margin-top: 18.6111vw;
+} 
+
+/* 2020/12/10 황운하 product-inquiry-success */
+.ico-inquiry-success{
+  width: 22.2222vw;
+  height: 22.2222vw;
+  background: url(../images/ico_inquiry_success.svg)no-repeat center / 22.2222vw 22.2222vw;
+}
+
+.product-inquiry-success-wrap{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translateY(-50%);
+}
+.product-inquiry-success-wrap .text-area > p:first-child{
+  line-height: 1.5;
+}

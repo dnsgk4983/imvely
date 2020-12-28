@@ -1,0 +1,340 @@
+@charset 'utf-8';
+
+
+.mypage-order-delivery-check .order-delivery-date{
+  /* align-items: center;
+  justify-content: space-between; */
+  height: 13.3333vw;
+  background-color: #f0eeeb;
+}
+
+/* .order-delivery-date .date-area {
+  display: flex;
+  align-items: center;
+} */
+
+.date-area em{
+  padding: 0 2.2222vw
+}
+
+.order-delivery-list-wrap li{
+  font-size: 3.8889vw;
+  font-weight: 700;
+  color: #524e4c;
+  padding: 3.3333vw 0;
+  border-bottom: 1px solid #f0eeeb;
+  background: url(../images/btn_arrow_right24.svg) no-repeat center right / 6.6667vw 6.6667vw;
+}
+
+
+.order-delivery-list-wrap li span{
+  font-weight: 400;
+  margin-left: 1.1111vw;
+}
+
+
+/* datepicker */
+.order-delivery-date label{
+  width: 28.3333vw;
+}
+
+.order-delivery-date label input{
+  width: 22.7778vw;
+  font-size: 3.8889vw;
+  background-color: #f0eeeb;
+}
+
+.order-delivery-date span{
+  margin: 0 2.2222vw;
+}
+
+
+.order-delivery-date .divide {
+  display: inline-block;
+  width: 0.2778vw;
+  height: 2.2222vw;
+  margin: 0 3.3333vw;
+  background-color: #dedcd9;
+  vertical-align: middle;
+}
+
+.mypage-order-delivery-check .product-list {
+  overflow-y: visible;
+}
+
+.vertical .product .product-wrap .text-area .product-order-check{
+  padding-top: 1.1111vw;
+  font-size: 3.0556vw;
+  letter-spacing: -0.0861vw;
+  font-weight: 700;
+}
+
+.vertical .product .product-wrap .text-area .payment-fin{
+  color: #54b079;
+}
+.vertical .product .product-wrap .text-area .payment-ing{
+  color: #262627;
+}
+
+.mypage-order-delivery-check .badge-area .badge-delivery-textarea{
+  position: absolute;
+  bottom: 1.1111vw;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22.2222vw;
+  height: 7.7778vw;
+  color: #8c8581;
+  font-weight: 700;
+  border: 1px solid #8c8581;
+  border-radius: 4.4444vw;
+}
+
+.mypage-order-delivery-check .badge-area .badge-delivery-textarea.on{
+  color: #fff;
+  font-weight: 700;
+  border: 1px solid #8c8581;
+  border-radius: 4.4444vw;
+  background-color: #8c8581;
+}
+
+.btn-mypage-order-delivery-check button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ico-btn-plus{
+  width: 2.2222vw;
+  height: 2.2222vw;
+  background: url(../images/ico_plus_8.svg) no-repeat center / 2.2222vw 2.2222vw;
+}
+
+
+/* 문의할 주문 건 선택 mypage-select-order-contact */
+
+.mypage-select-order-contact .order-delivery-list-wrap li{
+  padding: 4.4444vw 0;
+  border-bottom: none;
+  background: none;
+}
+
+/* 반품신청 mypage-return */
+
+.mypage-return .order-delivery-list-wrap li{
+  background: none;
+}
+
+.product-m0 article.product:last-child .product-wrap{
+  margin-bottom: 0;
+}
+
+.product-m0 .order-product-info article.product{
+  border-top: 1px solid #f0eeeb;
+  padding-top: 4.4444vw;
+}
+
+.product-m0 .order-product-info article.product:first-child{
+  border-top: none;
+  padding-top: 0;
+}
+
+.collection-goods .radio-wrap > div{
+  width: 50%;
+}
+
+.reasons-return textarea::placeholder{
+  font-size: 3.8889vw;
+  color: #8c8581;
+}
+
+.mypage-title-sub{
+  display: flex;
+  align-items: center;
+  font-size: 3.8889vw;
+  padding-bottom: 6.6667vw;
+}
+
+.mypage-title-sub h2{
+  font-weight: 700;
+}
+
+.mypage-return .payment-contents .contents{
+  font-size: 3.8889vw;
+  margin-top: 4.4444vw;
+}
+
+.payment-total-price .final-price{
+  color: #c94b4b
+}
+
+.payment-total-price .payment-contents h3{
+  color: #8c8581;
+}
+
+.payment-total-price .payment-contents p{
+  font-weight: 700;
+}
+
+.mypage-return-agreement-terms .li-bullet li,
+.return-exchange-text{
+  color:#262627;
+  line-height: 5vw;
+  font-size: 3.3333vw;
+}
+
+
+
+/* mypage-cancel-exchange-return-check 취소/교환/반품 조회 */
+.cancel-info,
+.exchange-info{
+  font-size: 3.8889vw;
+}
+.mypage-twoclas-wrap .twocols h2{
+  color:#8c8581;
+}
+
+.mypage-twoclas-wrap .twocols .reason-for-cancel{
+  font-weight: 700;
+}
+
+.mypage-twoclas-wrap li{
+  margin-top: 3.3333vw;
+}
+
+.mypage-twoclas-wrap li:first-child{
+  margin-top: 0;
+}
+
+.refund-total-price{
+  font-size: 5vw;
+  font-weight: 700;
+  margin-right: 4.4444vw;
+}
+
+.refund-total-price::after{
+  content: '원';
+}
+
+/* mypage-exchange-check 취소/교환/반품 조회(교환상세) */
+
+.twocols ul{
+  text-align: right;
+}
+
+.exchange-info .cancel-info-text .mypage-twoclas-wrap li ul li{
+  line-height: 5.5556vw;
+  margin-top: 0vw;
+}
+
+.product .divide{
+  display: inline-block;
+  width: 0.2778vw;
+  height: 2.2222vw;
+  margin: 1.1111vw 1.6667vw;
+  background-color: #dedcd9;
+  vertical-align: middle;
+}
+
+.delivery-num{
+  font-size: 3.0556vw;
+}
+
+
+/* mypage-refund-check 취소/교환/반품 조회(교환상세) */
+
+.product-order-check .delivery-num{
+  position: absolute;
+  right: 0;
+}
+
+.mypage-cancel-exchange-return-check .product > a,
+.mypage-cancel-exchange-return-check .product .text-area{
+  width: 100%
+}
+
+
+/* mypage-cancel-exchange-return-status-list 취소/교환/반품 현황 목록 */
+.mypage-cancel-exchange-return-status-list .order-delivery-date label input{
+  padding-top: 8.3333vw;
+  padding-bottom: 8.3333vw;
+}
+.mypage-cancel-exchange-return-status-list .order-delivery-date label input{
+  background-color: #fff;
+}
+
+.sub-menu-nav ul li{
+  width: 33.3333vw;
+  height: 11.1111vw;
+  line-height: 11.1111vw;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.sub-menu-nav ul li.on{
+  font-weight: 700;
+  color: #262627;
+  border-bottom: 2px solid #262627;
+  transition: all 0.3s ease;
+}
+
+.order-delivery-date label input,
+.order-delivery-date select{
+  color:#524e4c
+}
+
+
+
+/* mypage-cancel 취소신청 */
+
+.mypage-cancel .payment-total-price .final-price{
+  color: #262627
+}
+
+
+
+/* 간편결제관리 */
+
+
+.account-regist li{
+  position: relative;
+  width: 68.0556vw;
+  height: 38.8889vw;
+  padding: 3.3333vw;
+  border-radius: 2.2222vw;
+  background-color: #8dcfef;
+  margin: 6.6667vw auto 0 auto;
+}
+
+.account-regist .ico-recycle-wrap{
+  position: absolute;
+  top: 50%;
+  right: -13.8889vw;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6.6667vw;
+  height: 6.6667vw;
+  border: 1px solid #bcb3ac;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.account-regist .ico-recycle{
+  width: 4.4444vw;
+  height: 4.4444vw;
+  background-size: 4.4444vw 4.4444vw;
+}
+
+.payment-bottom-area h3{
+  line-height: 5vw;
+}
+
+.mypage-exchange .orderpay-title-sub h2,
+.exchange-info-text{
+  font-size: 3.8889vw
+}
+
+.exchange-cost{
+  height: 64.7222vw;
+}

@@ -1,0 +1,224 @@
+@charset 'utf-8';
+
+.orderpay-detail-wrap .order-detail{
+  padding-top: 9.7222vw;
+  padding-bottom: 6.6667vw;
+}
+
+.orderpay-detail-wrap .order-detail > .d-flex{
+  margin-bottom: 7.7778vw;
+}
+
+.orderpay-detail-wrap .order-detail-contents .order-item:not(:last-child){
+  margin-bottom: 3.3333vw;  
+}
+.orderpay-detail-wrap .order-detail-contents .order-item p{
+  font-size: 3.5556vw;
+  color: #8c8581;
+}
+.orderpay-detail-wrap .order-detail-contents .order-item span{
+  font-size: 3.5556vw;
+}
+
+.orderpay-detail-wrap .order-detail-contents .order-point span{
+  font-weight: bold;
+}
+
+.orderpay-detail-wrap .order-detail > button{
+  height: 11.1111vw;
+  color: #8c8581;
+  margin-top: 6.6667vw;
+}
+
+.orderpay-detail-wrap .order-product-list .product-list{
+  padding: 6.6667vw 0;
+}
+.orderpay-detail-wrap .order-product-list .product-list:first-child{
+  padding-top: 7.5vw;
+  padding-bottom: 6.6667vw;
+}
+
+.orderpay-detail-wrap .order-product-list .text-area button{
+  color: #8c8581;
+  font-size: 3.5556vw;
+}
+
+.orderpay-detail-wrap .order-product-list .product > button{
+  height: 11.1111vw;
+  color: #8c8581;
+}
+
+.orderpay-detail-wrap .order-product-list .product > .d-flex button{
+  width: 28.8889vw;
+  height: 11.1111vw;
+}
+.orderpay-detail-wrap button.wh{
+  color: #8c8581;
+}
+
+
+.orderpay-detail-wrap .delivery-info{
+  padding-top: 7.5vw;
+  padding-bottom: 6.6667vw;
+  font-size: 3.5556vw;
+  line-height: 5.5556vw;
+}
+.orderpay-detail-wrap .delivery-info .twocols:not(:last-child){
+  margin-bottom: 3.6111vw;
+}
+.orderpay-detail-wrap .delivery-info p{
+  color: #8c8581;
+}
+.orderpay-detail-wrap .delivery-info > button {
+  margin-top: 6.6667vw;
+}
+
+
+.orderpay-detail-wrap .order-payment-info .payment-info-title{
+  margin-bottom: 7.7778vw;
+}
+.orderpay-detail-wrap .order-payment-info .payment-info-title button{
+  font-size: 5vw;
+  font-weight: bold;
+}
+.orderpay-detail-wrap .order-payment-info .payment-info-title button i {
+  margin-left: 4.4444vw;
+}
+.orderpay-detail-wrap .payment-total-price{
+  font-size: 3.8889vw;
+}
+.orderpay-detail-wrap .payment-total-price h3{
+  color: #8c8581;
+}
+.orderpay-detail-wrap .payment-total-price p{
+  font-weight: bold;
+}
+
+.orderpay-detail-wrap .payment-total-price .receipt{
+  margin-top: 6.6667vw;
+}
+.orderpay-detail-wrap .payment-total-price .menu{
+  margin-top: 11.1111vw;
+}
+
+input:focus,
+input:active{
+  border-color: #56a0c4;
+}
+
+/* 2020/12/14 황운하 장바구니 css */
+.shopping-basket-none > .basket-top{
+  margin: 3.8889vw 0;
+}
+.shopping-basket-none .basket-top span{
+  font-size: 3.8889vw;
+}
+.shopping-basket-none > .basket-top button{
+  font-size: 3.3333vw;
+  color: #8c8581;
+  text-decoration: underline;
+}
+.ico-basket{
+  width: 22.2222vw;
+  height: 22.2222vw;
+  background: url(../images/ico_basket.svg)no-repeat center;
+}
+
+.shopping-basket-none > .basket-bottom{
+  padding-top: 31.1111vw;
+}
+
+/* 2020/12/21 황운하 shopping-basket */
+.shopping-basket-wrap {
+  padding: 0 0 19.4444vw 0;
+}
+.shopping-basket-wrap > .select-all { 
+  margin: 3.8889vw 0;
+}
+.shopping-basket-wrap .product-wrapper {
+  display: flex;
+  width: 100%;
+}
+.shopping-basket-wrap > .select-all label span {
+  line-height: 5.5556vw;
+  font-size: 3.8889vw;
+}
+.shopping-basket-wrap > .select-all button {
+  font-size: 3.3333vw;
+  color: #8c8581;
+  text-decoration: underline;
+}
+.shopping-basket-wrap .product-list .product {
+  margin-top: 3.3333vw;
+}
+.shopping-basket-wrap .sold-out .img-area img{
+  opacity: .5;
+}
+.shopping-basket-wrap .sold-out .img-area .img-box{
+  position: relative;
+}
+.shopping-basket-wrap .sold-out .img-area .img-box::after{
+  content: "옵션품절";
+  position: absolute;
+  bottom: 0;
+  width: 20vw;
+  height: 5.5556vw;
+  line-height: 5.5556vw;
+  color: #ffffff;
+  font-size: 3.0556vw;
+  text-align: center;
+  opacity: .8;
+  background-color: #262627;
+}
+
+.shopping-basket-wrap .payment-wrapper .payment-text-area{
+  margin-top: 3.3333vw;
+  padding: 0 4.4444vw 0 13.3333vw;
+}
+.shopping-basket-wrap .payment-area p {
+  font-size: 3.8889vw;
+  color: #8c8581;
+}
+
+.shopping-basket-wrap .payment-wrapper span{
+  font-size: 3.8889vw;
+}
+.shopping-basket-wrap .payment-wrapper .total span {
+  font-size: 4.4444vw;
+}
+
+.shopping-basket-wrap .total-payment-area h3{
+  font-size: 3.8889vw;
+  color: #8c8581;
+}
+
+.shopping-basket-wrap .total-payment-area p {
+  font-size: 3.8889vw;
+  font-weight: bold;
+}
+
+.shopping-basket-wrap .total-payment-area .container-16 > div {
+  margin-top: 4.4444vw;
+}
+
+.shopping-basket-wrap .total-payment-area .total {
+  font-size: 5.5556vw;
+}
+.shopping-basket-wrap .total-payment-area .point{
+  color: #df9cdf;
+}
+.shopping-basket-wrap .basket-note ul {
+  padding-left: 2.2222vw;
+}
+.shopping-basket-wrap .basket-note ul li {
+  line-height: 4.4444vw;
+  font-size: 3.0556vw;
+  color: #8c8581;
+}
+.shopping-basket-wrap .basket-note ul li::marker{
+  content: "· ";
+}
+
+.shopping-basket-wrap .vertical-cart .product .product-wrap .text-area .option-list span {
+  color: #bcb3ac;
+}

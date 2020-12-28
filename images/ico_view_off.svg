@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>F41B8C62-5910-4083-873E-A628476D3C11</title>
+    <g id="마이페이지" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IM-MW-MP-52" transform="translate(-324.000000, -196.000000)">
+            <g id="icon/view_none" transform="translate(324.000000, 196.000000)">
+                <g id="Group" transform="translate(1.000000, 5.000000)">
+                    <g id="Group-2" transform="translate(0.000000, 0.500000)">
+                        <path d="M9,9 C12.3137085,9 15.3137085,7.5 18,4.5 C15.3137085,1.5 12.3137085,0 9,0 C5.6862915,0 2.6862915,1.5 0,4.5 C2.6862915,7.5 5.6862915,9 9,9 Z" id="Oval" stroke="#BCB3AC" fill="#BCB3AC" stroke-linejoin="round"></path>
+                        <circle id="Oval" stroke="#FFFFFF" cx="9" cy="4.5" r="4"></circle>
+                    </g>
+                </g>
+                <rect id="Rectangle" stroke="#FFFFFF" fill="#BCB3AC" transform="translate(9.000000, 10.000000) rotate(-45.000000) translate(-9.000000, -10.000000) " x="8" y="0" width="2" height="20" rx="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
