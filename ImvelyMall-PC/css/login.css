@@ -1,0 +1,801 @@
+@charset 'utf-8';
+
+/* 2020/12/15 황운하 login */
+.login-section{
+  padding: 50px 0 140px;
+}
+.login-wrap{
+  padding: 80px 0 50px;
+  background-color: #ffffff;
+}
+
+.login-section .login-item {
+  margin-top: 50px;
+}
+
+.login-section .login-item > .login-item-area:first-child{
+  margin-bottom: 12px;
+}
+
+
+.login-section .login-item > .login-item-area > div > input::placeholder{
+  font-size: 15px;
+}
+
+.login-section .login-item label input[type=checkbox] + span{
+  font-size: 15px;
+}
+
+.login-section .login-item > button{
+  margin: 30px 0 20px;
+}
+.login-section .login-find-area button{
+  font-size: 15px;
+  line-height: 22px;
+}
+.login-section .login-find-area .d-flex span{
+  width: 1px;
+  height: 15px;
+  margin: 0 13px;
+  background-color: #cbcccf;
+}
+
+.login-social-area{
+  margin-top: 30px;
+}
+.single-btn.kakao {
+  background-color: #f6e24b;
+}
+.single-btn.kakao button {
+  color: #000000;
+}
+.single-btn i {
+  margin-right: 10px;
+}
+.login-section .login-social-area > span{
+  width: 1px;
+  height: 18px;
+  margin: 0 54px;
+  background-color: #e0e0e0;
+}
+
+.login-section .login-social-area .social-icon span {
+  font-size: 15px;
+  color: #909090;
+  margin-left: 10px;
+}
+
+
+
+.main-title{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.login-section .login-contents > .main-title{
+  margin-bottom: 75px;
+}
+
+/* 로그인 페이지 하단 - 회원가입 */
+.login-section .register-item > h3{
+  line-height: 26px;
+  font-size: 18px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.login-section .register-item > p{
+  line-height: 22px;
+  font-size: 15px;
+  color: #909090;
+}
+
+.login-section .register-item > button{
+  margin-top: 26px;
+  margin-bottom: 20px;
+}
+.login-section .register-benefit > li { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 147px;
+  height: 90px;
+  border: 1px solid #e0e0e0;
+}
+
+.login-section .register-benefit li > span{
+  line-height: 18px;
+  display: block;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.login-section .register-benefit li h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.login-section .register-benefit li h2 span {
+  font-size: 24px;
+}
+.login-section .register-benefit li h2 b {
+  font-size: 23px;
+}
+.login-section .register-benefit li h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* 2020/12/15 황운하 비회원 주문조회 */
+.login-section .nonmember-item{
+  padding-top: 50px;
+}
+.login-section .nonmember-item > button {
+  margin-top: 36px;
+  margin-bottom: 50px;
+}
+.login-section .nonmember-item .nonmember-area p{
+  display: block;
+  width: 100px;
+  height: 19px;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.login-section .nonmember-item .nonmember-area input{
+  width: 500px;
+  height: 56px;
+  line-height: 56px;
+}
+.login-section .nonmember-item .nonmember-area input::placeholder{
+  font-size: 15px;
+}
+
+.login-section .nonmember-item .nonmember-area:not(:nth-child(3)){
+  margin-bottom: 12px;
+}
+
+.login-section .remember-ordercount p{
+  font-size: 16px;
+}
+
+.login-section .remember-ordercount ul {
+  padding-left: 8px;
+  margin-top: 18px;
+  font-size: 15px;
+  line-height: 22px;
+  color: #909090;
+}
+
+.login-section .remember-ordercount ul > li::marker{
+  content: "· ";
+}
+
+.login-section .nonmember-item > button.wh{
+  margin: 0;
+  margin-top: 30px;
+}
+.login-section .non-register-benefit li{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 194px;
+  height: 98px;
+  border: 1px solid #e0e0e0;
+}
+
+.login-section .non-register-benefit li > span { 
+  display: block;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.login-section .non-register-benefit li > h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.login-section .non-register-benefit li > h2 span{
+  font-size: 24px;
+}
+
+.login-section .non-register-benefit li > h3 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* 2020/12/15 황운하 renewal */
+.renewal-section{
+  padding: 50px 0 307px;
+}
+
+.renewal-section .container-1180{
+  padding: 80px 0 50px;
+}
+
+.renewal-section .renewal-content p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #353231;
+}
+
+.renewal-section .divider{
+  margin: 30px 0 50px;
+}
+
+.renewal-section button{
+  margin-top: 70px;
+}
+
+/* 2020/12/15 황운하 register */
+.register-section{
+  padding: 120px 0 105px;
+}
+
+.register-section .register-item .img-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+}
+
+.register-section .register-item.on .img-box{
+  background-color: #262628;
+}
+
+.register-section .register-item i{
+  cursor: default;
+}
+
+.register-section .register-item .text-area{
+  margin-left: 18px;
+}
+
+.register-section .step-arrow {
+  margin: 0 40px;
+}
+
+.register-section .register-item h2{
+  font-size: 22px;
+  font-weight: bold;
+  color: #909090;
+  margin-bottom: 9px;
+}
+
+.register-section .register-item p{
+  font-size: 16px;
+  line-height: 24px;
+  color: #909090;
+}
+
+.register-section .register-item.on h2,
+.register-section .register-item.on p {
+  color: #262628;
+}
+
+.register-conditions h2{
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 46px;
+}
+.register-conditions div {
+  display: flex;
+}
+.register-conditions label {
+  display: flex;
+  align-items: center;
+}
+.condition-item-wrap{
+  flex-wrap: wrap;
+}
+.condition-item > div {
+  display: flex;
+}
+.condition-item label {
+  display: flex;
+  align-items: center;
+}
+.condition-item label i {
+  margin-right: 10px;
+}
+.condition-item textarea{
+  display: block;
+  width: 569px;
+  height: 288px;
+  padding: 20px 14px 0;
+  margin-top: 20px;
+  border: 1px solid #e0e0e0;
+  background-color: #f5f5f5;
+}
+
+.register-section input[type=checkbox].circle + i {
+  margin-right: 10px;
+}
+
+.register-section .condition-item:nth-child(n+1):nth-child(-n+2){
+  margin-bottom: 50px;
+}
+
+.register-section .register-certification .d-flex{
+  align-items: flex-start;
+}
+.register-section .register-certification h2{
+  font-size: 22px;
+  font-weight: bold;
+}
+.register-section .register-certification ul{
+  padding-left: 8px;
+  margin-left: 30px;
+}
+.register-section .register-certification li::marker{
+  content: "· ";
+}
+.register-section .register-certification li{
+  line-height: 22px;
+  font-size: 15px;
+  color: #909090;
+}
+
+
+
+.register-section .btn-wrap{
+  margin-top: 90px;
+}
+/* 2020/12/15 황운하 회원정보 갱신 팝업*/
+.register-popup > .popup{
+  padding: 96px 0 50px;
+}
+.register-popup > .popup > p{
+  font-size: 22px;
+  line-height: 29px;
+  margin-bottom: 65px;
+}
+
+/* 2020/12/29 황운하 회원가입 step2 */
+.register-info-write h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.register-info-write ul {
+  display: flex;
+  align-items: center;
+  height: 41px;
+}
+.register-info-write ul:not(:last-child) {
+  margin-bottom: 26px;
+}
+.register-info-write ul.mb-16 {
+  margin-bottom: 16px;
+}
+.register-info-write ul.mb-20 {
+  margin-bottom: 20px;
+}
+.register-info-write ul > li:first-child {
+  width: 150px;
+  margin-right: 26px;
+}
+
+.register-info-write ul > li:last-child {
+  width: 610px;
+}
+.register-info-write ul > li input[type=radio] + i {
+  margin-right: 6px;
+}
+
+.register-info-write ul > li input.circle + i {
+  margin-right: 10px;
+}
+
+.register-info-write input {
+  line-height: 22px;
+  font-size: 15px;
+}
+.register-info-write input::placeholder {
+  font-size: 15px;
+}
+.register-info-write span {
+  line-height: 22px;
+  font-size: 15px;
+}
+.register-info-write ul:last-child p {
+  line-height: 22px;
+  font-size: 15px;
+  color: #909090;
+}
+.register-info-write ul.receive span {
+  line-height: 22px;
+  font-size: 15px;
+}
+
+/* 2020/12/29 황운하 info-renwal-success */
+.info-renewal-success .text-area h3{
+  line-height: 29px;
+  font-size: 22px;
+  margin-bottom: 19px;
+}
+.info-renewal-success .text-area p {
+  font-size: 16px;
+  color: #909090;
+}
+
+.info-renewal-success .success-wrap {
+  position: relative;
+  display: flex;
+  height: 146px;
+  margin-top: 50px;
+  background-color: #f9f9f9;
+}
+.info-renewal-success .success-wrap > div {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.info-renewal-success .success-wrap > div:first-child::after {
+  position: absolute;
+  right: 50%;
+  content: "";
+  width: 1px;
+  height: 70px;
+  background-color: #e0e0e0;
+}
+.info-renewal-success .success-wrap h3 {
+  line-height: 29px;
+  font-size: 22px;
+  margin-bottom: 23px;
+}
+.info-renewal-success .success-wrap p {
+  font-size: 16px;
+  color: #909090;
+}
+
+/* 2020/12/29 황운하 main-password-change */
+.change-password-section .password-wrap > h2 {
+  line-height: normal;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.change-password-section .password-wrap > p {
+  line-height: 22px;
+  font-size: 15px;
+  color: #909090;
+}
+.change-password-section .password-wrap ul {
+  line-height: 22px;
+  font-size: 15px;
+  padding-left: 8px;
+  color: #909090;
+}
+.change-password-section .password-wrap ul > li::marker {
+  content: "· ";
+}
+.change-password-section .password-area > div > p {
+  width: 150px;
+}
+.change-password-section .password-area p + * {
+  width: 100%;
+}
+.change-password-section  .password-area > div:first-child {
+  margin-bottom: 12px;
+}
+.change-password-section .btn-wrap {
+  margin-top: 90px;
+}
+
+/* 2020/12/30 황운하 main-register-guide */
+.register-guide-section {
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 224px;
+  background-color: #f9f9f9;
+}
+.register-guide-section > div {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.register-guide-section h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.register-guide-section h3 {
+  font-size: 22px;
+  line-height: 29px;
+  text-align: center;
+}
+.register-guide-section .btn-area {
+  display: block;
+  margin-top: 90px;
+  text-align: center;
+}
+.register-guide-section .btn-area button:first-child {
+  margin: 0;
+}
+button.kakao {
+  background: url(../images/ico_kakao_signin_big.svg)no-repeat #f6e24b;
+  background-position:  27px center;
+}
+button.naver {
+  color: #f5f5f5;
+  background: url(../images/ico_naver_signin_big.svg)no-repeat #2db400;
+  background-position: 54px center;
+}
+button.facebook {
+  color: #f5f5f5;
+  background: url(../images/ico_facebook_signin_big.svg)no-repeat #3c5a99;
+  background-position: 44px center;
+}
+button.apple {
+  color: #f5f5f5;
+  background: url(../images/ico_apple_signin_big.svg)no-repeat #909090;
+  background-position: 58px center;
+}
+.register-guide-section > div >  .btn-wrap {
+  margin-top: 90px;
+}
+
+/* 2020/12/30 황운하 main-combine-register */
+.combine-register {
+  padding: 147px 0 107px;
+}
+section > .container-1180 > h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.combine-register h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.combine-register .input-area label {
+  width: 610px;
+}
+
+.combine-register select {
+  width: 90px;
+  margin-right: 14px;
+}
+.combine-register select.year {
+  width: 120px;
+}
+.combine-register ul {
+  margin-bottom: 26px;
+}
+.combine-register ul.mb-16 {
+  margin-bottom: 16px;
+}
+.combine-register ul.mb-20{
+  margin-bottom: 20px;
+}
+.combine-register .register-conditions {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.combine-register .register-conditions i {
+  margin-right: 10px;
+}
+.combine-register textarea {
+  font-size: 14px;
+  line-height: normal;
+  color: #909090;
+}
+.combine-register select {
+  font-size: 15px;
+  color: #c6c6c6;
+}
+textarea::-webkit-scrollbar {
+  width: 6px;
+}
+textarea::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+textarea::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #909090;
+}
+textarea::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+}
+.check-area .check-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 25px;
+}
+.check-area label {
+  margin: 0 25px;
+}
+.check-area i {
+  margin-right: 10px;
+}
+.check-area span {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/* 2020/12/30 황운하 main-combine-success */
+.combine-success {
+  padding-top: 147px;
+  padding-bottom: 171px;
+}
+.combine-success-wrap {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.combine-success-wrap h3 {
+  line-height: 29px;
+  font-size: 22px;
+  margin-bottom: 19px;
+}
+.combine-success-wrap p {
+  font-size: 16px;
+  color: #909090;
+}
+.combine-coupon-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1180px;
+  height:240px;
+  background-color: #f9f9f9;
+}
+.combine-coupon-area > ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.combine-coupon-area > ul > li {
+  text-align: center;
+}
+.combine-coupon-area > ul > li > p {
+  font-size: 15px;
+  margin-top: 19px;
+  line-height: normal;
+}
+.combine-coupon-area .coupon-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:170px;
+  height: 100px;
+  color: #fff;
+  background: url(../images/img_rank_coupon_bk.svg)no-repeat center;
+}
+.combine-coupon-area li:not(:last-child) {
+  margin-right: 42px;
+}
+.combine-coupon-area .coupon-area b {
+  line-height: normal;
+  font-size: 22px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+/* 2020/12/30 황운하 main-find-id */
+.find-info-wrap{
+  padding: 50px 0 249px;
+  background-color: #f9f9f9;
+}
+.find-area {
+  padding: 70px 0 170px;
+}
+.radio-area {
+  height: 41px;
+}
+.radio-area label input[type=radio] + i {
+  margin-right: 6px;
+}
+.radio-area label input[type=radio] + i + span {
+  line-height: 22px;
+  font-size: 15px
+}
+.radio-area label:first-child {
+  margin-right: 36px;
+}
+.find-info-wrap .container-620 > p {
+  line-height: 22px;
+  font-size: 15px;
+  color: #909090;
+}
+.find-info-wrap .container-620 .d-flex > p {
+  width: 100px;
+  white-space: nowrap;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+/* 2021/01/04 황운하 find-id-result */
+.find-id-result {
+  padding: 50px 0 293px;
+}
+.find-area > div > p {
+  line-height: 22px;
+  font-size: 15px;
+}
+.result-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 136px;
+  margin-bottom: 50px;
+}
+.result-area p {
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 3px;
+}
+.result-area span {
+  line-height: 30px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.find-id-result nav {
+  margin: 75px 0 50px;
+}
+
+/* 2020/01/04 황운하 change-password */
+.member-password-section {
+  padding: 50px 0 180px;
+}
+.member-password-section .change-note p {
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 6px;
+}
+
+.member-password-section .change-note ul li {
+  line-height: 22px;
+  font-size: 15px;
+  color: #656565;
+}
+
+.member-password-section .article-list-wrap {
+  margin-top: 30px;
+}
+.member-password-section .article-list input + button {
+  bottom: 0;
+}
+.member-password-section .btn-wrap{
+  margin-top: 50px;
+}
+
+/* 2021/01/04 황운하 member-reset-password */
+.reset-password-section .change-area {
+  margin-top: 50px;
+}
+.reset-password-section .change-area > p {
+  line-height: 30px;
+  font-size: 22px;
+}
+.reset-password-section .article-list-wrap {
+  margin-top: 48px;
+}
+
+/* 2020/01/04 황운하 change-password-expiration */
+.password-expiration-section .center-align {
+  flex-direction: column;
+}
+.password-expiration-section .text-area {
+  text-align: center;
+  margin: 50px 0 75px;
+}
+.password-expiration-section .text-area p {
+  line-height: 30px;
+  font-size: 22px;
+}
+
